@@ -1,0 +1,184 @@
+{
+  "A": {
+    "duration": 33.32,
+    "fix": {
+      "1": "3ème",
+      "20": "part",
+      "27": "banque:",
+      "45": "attention:",
+      "69": "A",
+      "67": "3ème"
+    },
+    "hook": {
+      "size": 138,
+      "lines": [
+        {
+          "words": [
+            [
+              "Votre",
+              0,
+              "sans"
+            ]
+          ]
+        },
+        {
+          "words": [
+            [
+              "3ème",
+              1,
+              "sans"
+            ],
+            [
+              "pilier",
+              2,
+              "sans"
+            ],
+            [
+              "A",
+              2,
+              "sans"
+            ]
+          ]
+        },
+        {
+          "words": [
+            [
+              "est",
+              3,
+              "sans"
+            ],
+            [
+              "en",
+              4,
+              "sans"
+            ]
+          ]
+        },
+        {
+          "words": [
+            [
+              "assurance ?",
+              5,
+              "serif"
+            ]
+          ]
+        },
+        {
+          "block": 2,
+          "mode": "drop",
+          "cls": "q2",
+          "words": [
+            [
+              "Vous",
+              6,
+              "sans"
+            ],
+            [
+              "avez",
+              7,
+              "sans"
+            ],
+            [
+              "déjà",
+              8,
+              "sans"
+            ]
+          ]
+        },
+        {
+          "block": 2,
+          "mode": "drop",
+          "cls": "q2",
+          "words": [
+            [
+              "pensé",
+              9,
+              "sans"
+            ],
+            [
+              "à",
+              10,
+              "sans"
+            ],
+            [
+              "la",
+              11,
+              "sans"
+            ]
+          ]
+        },
+        {
+          "block": 2,
+          "mode": "drop",
+          "cls": "q2 big",
+          "words": [
+            [
+              "banque ?",
+              12,
+              "serif red"
+            ]
+          ]
+        }
+      ]
+    },
+    "pivot_title": "En <em>banque</em>",
+    "anchors": {
+      "hook_compress": 3.02,
+      "act1b": 13,
+      "primes": 18,
+      "couverture": 22,
+      "frais": 25,
+      "pivot": 26,
+      "fiscal": 28,
+      "moins": 31,
+      "versez": 34,
+      "open": 36,
+      "sl1": 37,
+      "sl2": 40,
+      "sl3": 43,
+      "attention": 44,
+      "toutes": 46,
+      "retraite": 56,
+      "ecart": 57,
+      "cta": 64,
+      "cta_pilier": 67,
+      "gratuit": 74
+    },
+    "caption_skip": [
+      0,
+      13
+    ],
+    "caption_breaks": [
+      13,
+      20,
+      23,
+      26,
+      34,
+      37,
+      40,
+      44,
+      46,
+      49,
+      53,
+      57,
+      61,
+      64,
+      66,
+      70,
+      74,
+      76,
+      80,
+      85
+    ],
+    "caption_red": [
+      25,
+      33,
+      45,
+      75
+    ],
+    "caption_nobreak": [
+      43,
+      71
+    ]
+  }
+}

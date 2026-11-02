@@ -1,0 +1,71 @@
+<template>
+  <style>
+    {{FONTS}}
+    #root { position: absolute; inset: 0; }
+    #at-all { position: absolute; inset: 0; background: {{INK}}; }
+    #at-flash { position: absolute; inset: 0; background: {{RED}}; }
+    #at-stage { position: absolute; left: 0; width: {{W}}px; top: {{STAGE_TOP}}px; height: {{STAGE_H}}px; color: {{CREAM}}; }
+    #at-mais {
+      position: absolute; left: 90px; top: 250px; width: 900px; white-space: nowrap;
+      font-family: 'Inter Tight'; font-weight: 900; font-size: 190px; line-height: 0.86; letter-spacing: -0.05em;
+      color: {{RED}}; transform-origin: 0% 0%;
+    }
+    #at-mais em { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; letter-spacing: -0.01em; font-size: 1.15em; }
+    #at-sub {
+      position: absolute; left: 90px; top: 225px; width: 900px;
+      font-family: 'Inter Tight'; font-weight: 900; font-size: 74px; line-height: 1; letter-spacing: -0.04em;
+    }
+    #at-sub em { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; letter-spacing: -0.005em; font-size: 1.2em; color: {{RED}}; }
+    #at-chart { position: absolute; left: 90px; top: 440px; width: 900px; height: 560px; overflow: visible; }
+    .at-lbl { font-family: 'Inter Tight'; font-weight: 800; font-size: 30px; letter-spacing: 0.12em; text-transform: uppercase; fill: {{CREAM}}; }
+    #at-ecart { font-family: 'Instrument Serif'; font-style: italic; font-size: 64px; fill: {{RED}}; }
+  </style>
+  <div id="root" data-composition-id="attention" data-width="{{W}}" data-height="{{H}}">
+    <div id="at-all">
+      <div id="at-stage">
+        <div id="at-mais"><div>Mais</div><div><em>attention</em></div></div>
+        <div id="at-sub">Toutes les banques<br /><em>ne se valent pas</em></div>
+        <svg id="at-chart" viewBox="0 0 900 560" data-layout-allow-overflow>
+          <line id="at-axis" x1="20" y1="520" x2="700" y2="520" stroke="{{CREAM}}" stroke-opacity="0.35" stroke-width="3" />
+          <text class="at-lbl" x="20" y="555" opacity="0.55">Temps</text>
+          <path class="at-c" id="at-c1" d="M20 500 C 260 494, 460 300, 680 60" fill="none" stroke="{{CREAM}}" stroke-width="7" stroke-linecap="round" pathLength="1" stroke-dasharray="1" />
+          <path class="at-c" id="at-c2" d="M20 500 C 260 496, 470 360, 680 165" fill="none" stroke="{{CREAM}}" stroke-opacity="0.75" stroke-width="6" stroke-linecap="round" pathLength="1" stroke-dasharray="1" />
+          <path class="at-c" id="at-c3" d="M20 500 C 260 497, 480 410, 680 260" fill="none" stroke="{{CREAM}}" stroke-opacity="0.55" stroke-width="6" stroke-linecap="round" pathLength="1" stroke-dasharray="1" />
+          <path class="at-c" id="at-c4" d="M20 500 C 270 498, 490 450, 680 345" fill="none" stroke="{{CREAM}}" stroke-opacity="0.4" stroke-width="6" stroke-linecap="round" pathLength="1" stroke-dasharray="1" />
+          <path class="at-c" id="at-c5" d="M20 500 C 280 499, 500 480, 680 420" fill="none" stroke="{{CREAM}}" stroke-opacity="0.3" stroke-width="6" stroke-linecap="round" pathLength="1" stroke-dasharray="1" />
+          <circle id="at-origin" cx="20" cy="500" r="14" fill="{{CREAM}}" />
+          <g id="at-ret">
+            <line x1="680" y1="20" x2="680" y2="520" stroke="{{CREAM}}" stroke-opacity="0.5" stroke-width="3" stroke-dasharray="10 10" />
+            <text class="at-lbl" x="680" y="555" text-anchor="middle">Retraite</text>
+          </g>
+          <path id="at-brk" d="M712 60 H730 V420 H712" fill="none" stroke="{{RED}}" stroke-width="7" stroke-linejoin="miter" />
+          <text id="at-ecart" x="748" y="258">l'écart</text>
+        </svg>
+      </div>
+      <div id="at-flash"></div>
+    </div>
+  </div>
+  <script>
+    const S = {{S}};
+    const L = (g) => Math.max(0, g - S);
+    const tl = gsap.timeline({ paused: true });
+    // retour du rouge : un rideau rouge balaie l'écran de bas en haut
+    tl.fromTo("#at-all", { clipPath: "inset(100% 0% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 0.28, ease: "power3.inOut" }, 0);
+    tl.fromTo("#at-flash", { clipPath: "inset(0% 0% 0% 0%)" }, { clipPath: "inset(0% 0% 100% 0%)", duration: 0.32, ease: "power3.inOut" }, 0.2);
+    // « Mais attention » claque
+    tl.fromTo("#at-mais", { scale: 1.35, opacity: 0, filter: "blur(10px)" }, { scale: 1, opacity: 1, filter: "blur(0px)", duration: 0.32, ease: "expo.out" }, L({{T_MAIS}}) + 0.05);
+    tl.to("#at-mais", { scale: 0.4, y: -230, duration: 0.5, ease: "power3.inOut" }, L({{T_TOUTES}}) - 0.15);
+    tl.fromTo("#at-sub", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.45, ease: "expo.out" }, L({{T_TOUTES}}) + 0.1);
+    // les courbes partent du même point puis divergent
+    tl.fromTo("#at-axis", { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 0.6, ease: "expo.out" }, L({{T_TOUTES}}) + 0.3);
+    tl.fromTo("#at-origin", { scale: 0, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.4, ease: "back.out(2.5)" }, L({{T_TOUTES}}) + 0.35);
+    const draw = L({{T_CURVES_END}}) - (L({{T_TOUTES}}) + 0.6);
+    ["#at-c5", "#at-c4", "#at-c3", "#at-c2", "#at-c1"].forEach((id, k) => {
+      tl.fromTo(id, { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: Math.min(3.4, draw), ease: "power2.inOut" }, L({{T_TOUTES}}) + 0.6 + k * 0.08);
+    });
+    tl.fromTo("#at-ret", { opacity: 0 }, { opacity: 1, duration: 0.3 }, L({{T_RETRAITE}}));
+    tl.fromTo("#at-brk", { scaleY: 0, transformOrigin: "50% 50%" }, { scaleY: 1, duration: 0.5, ease: "expo.out" }, L({{T_ECART}}));
+    tl.fromTo("#at-ecart", { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.4, ease: "expo.out" }, L({{T_ECART}}) + 0.15);
+    window.__timelines["attention"] = tl;
+  </script>
+</template>

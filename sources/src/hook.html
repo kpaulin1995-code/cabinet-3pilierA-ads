@@ -1,0 +1,58 @@
+<template>
+  <style>
+    {{FONTS}}
+    #root { position: absolute; inset: 0; }
+    #hook-stage {
+      position: absolute; left: 0; width: {{W}}px;
+      top: {{STAGE_TOP}}px; height: {{STAGE_H}}px;
+    }
+    #hook-b1 {
+      position: absolute; left: 90px; right: 90px; top: 150px;
+      color: {{CREAM}};
+      font-family: 'Inter Tight'; font-weight: 900;
+      font-size: {{HOOK_SIZE}}px; line-height: 0.94; letter-spacing: -0.035em;
+      transform-origin: 0% 0%;
+    }
+    #hook-b2 {
+      position: absolute; left: 90px; right: 90px; top: 600px;
+      color: {{CREAM}};
+      font-family: 'Inter Tight'; font-weight: 900;
+      font-size: 104px; line-height: 0.98; letter-spacing: -0.03em;
+    }
+    #hook-wrap { position: absolute; inset: 0; }
+    .hl { white-space: nowrap; }
+    .hw { display: inline-block; }
+    .serif { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; letter-spacing: -0.01em; font-size: 1.22em; line-height: 0.9; }
+    .red { color: {{RED}}; }
+    .q2.big { font-size: 150px; margin-top: 6px; }
+    #hook-rule { position: absolute; left: 90px; top: 110px; width: 120px; height: 10px; background: {{RED}}; transform-origin: 0 50%; }
+    {{SPECIAL_CSS}}
+  </style>
+  <div id="root" data-composition-id="hook" data-width="{{W}}" data-height="{{H}}">
+    <div id="hook-stage">
+      <div id="hook-wrap">
+        <div id="hook-rule"></div>
+        <div id="hook-b1">
+          {{HOOK1}}
+        </div>
+        <div id="hook-b2">
+          {{HOOK2}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    {{HOOK_JS}}
+    const C = {{COMPRESS}};
+    if (C >= 0) {
+      // le hook se compresse et remonte pour laisser tomber la 2e question
+      tl.fromTo("#hook-b1", { scale: 1, y: 0 }, { scale: 0.62, y: -130, duration: 0.5, ease: "power3.inOut" }, C);
+      tl.fromTo("#hook-rule", { scaleX: 1 }, { scaleX: 0, duration: 0.3, ease: "power3.in" }, C);
+    }
+    {{SPECIAL_JS}}
+    // sortie : masque net qui referme la scène vers le haut
+    tl.fromTo("#hook-wrap", { clipPath: "inset(0% 0% 0% 0%)" }, { clipPath: "inset(0% 0% 100% 0%)", duration: 0.32, ease: "power3.in" }, {{EXIT}});
+    window.__timelines["hook"] = tl;
+  </script>
+</template>

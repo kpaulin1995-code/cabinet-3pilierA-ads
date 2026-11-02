@@ -1,0 +1,100 @@
+<template>
+  <style>
+    {{FONTS}}
+    #root { position: absolute; inset: 0; }
+    #ct-stage { position: absolute; left: 0; width: {{W}}px; top: {{STAGE_TOP}}px; height: {{STAGE_H}}px; }
+    #ct-label {
+      position: absolute; left: 90px; top: 40px;
+      font-family: 'Inter Tight'; font-weight: 800; font-size: 30px; letter-spacing: 0.16em;
+      text-transform: uppercase; color: {{CREAM}}; opacity: 0.6;
+    }
+    #ct-card {
+      position: absolute; left: 90px; width: 900px; top: 110px; height: 840px;
+      border: 3px solid rgba(244, 241, 234, 0.22); background: #0E1930;
+      transform-origin: 50% 0%;
+    }
+    .fine { position: absolute; left: 40px; height: 12px; background: rgba(244, 241, 234, 0.16); border-radius: 2px; transform-origin: 0 50%; }
+    .art { position: absolute; left: 40px; font-family: 'Inter Tight'; font-weight: 600; font-size: 28px; color: rgba(244, 241, 234, 0.45); letter-spacing: 0.02em; }
+    .row {
+      position: absolute; left: 0; width: 894px; height: 132px;
+      border-top: 2px solid rgba(244, 241, 234, 0.14);
+    }
+    .row-bg { position: absolute; inset: 0; background: {{RED}}; transform-origin: 0 50%; }
+    .row-t {
+      position: absolute; left: 40px; top: 36px;
+      font-family: 'Inter Tight'; font-weight: 900; font-size: 52px; letter-spacing: -0.045em;
+      color: {{CREAM}}; white-space: nowrap;
+    }
+    .row-t em { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; letter-spacing: -0.01em; font-size: 1.2em; }
+    .bar { position: absolute; right: 40px; top: 56px; width: 300px; height: 22px; background: rgba(244, 241, 234, 0.12); }
+    .bar i { position: absolute; left: 0; top: 0; bottom: 0; background: {{CREAM}}; transform-origin: 0 50%; display: block; }
+    #ct-lock { position: absolute; right: 40px; top: 26px; width: 66px; height: 80px; color: {{CREAM}}; }
+    #ct-fixe { position: absolute; right: 130px; top: 46px; font-family: 'Inter Tight'; font-weight: 800; font-size: 34px; color: {{CREAM}}; opacity: 0.75; letter-spacing: -0.01em; }
+  </style>
+  <div id="root" data-composition-id="contrat" data-width="{{W}}" data-height="{{H}}">
+    <div id="ct-stage">
+      <div id="ct-label">Contrat · 3ème pilier A</div>
+      <div id="ct-card" data-layout-allow-overlap>
+        <div class="art" id="ct-art" style="top: 34px">Art. 4.2 — Conditions</div>
+        <div class="fine" id="ct-f1" style="top: 92px; width: 780px"></div>
+        <div class="fine" id="ct-f2" style="top: 118px; width: 820px"></div>
+        <div class="fine" id="ct-f3" style="top: 144px; width: 690px"></div>
+        <div class="fine" id="ct-f4" style="top: 170px; width: 760px"></div>
+        <div class="fine" id="ct-f5" style="top: 196px; width: 520px"></div>
+
+        <div class="row" id="ct-r1" style="top: 252px">
+          <div class="row-t">Prime mensuelle</div>
+          <div id="ct-fixe">fixe</div>
+          <svg id="ct-lock" viewBox="0 0 60 72">
+            <path id="ct-shackle" d="M15 34 V21 a15 15 0 0 1 30 0 V34" fill="none" stroke="currentColor" stroke-width="7" />
+            <rect x="4" y="32" width="52" height="38" rx="5" fill="currentColor" />
+          </svg>
+        </div>
+        <div class="row" id="ct-r2" style="top: 384px">
+          <div class="row-t" id="ct-t2">Couverture</div>
+          <div class="bar"><i id="ct-b2" style="width: 100%"></i></div>
+        </div>
+        <div class="row" id="ct-r3" style="top: 516px">
+          <div class="row-bg" id="ct-bg3"></div>
+          <div class="row-t" id="ct-t3"><em>Frais</em></div>
+          <div class="bar" id="ct-bar3"><i id="ct-b3" style="width: 100%"></i></div>
+        </div>
+        <div class="row" id="ct-r4" style="top: 648px">
+          <div class="row-t" id="ct-t4">Épargne</div>
+          <div class="bar"><i id="ct-b4" style="width: 100%"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const S = {{S}};
+    const L = (g) => Math.max(0, g - S);
+    const tl = gsap.timeline({ paused: true });
+    // le contrat entre serré : il arrive trop large et se compresse
+    tl.fromTo("#ct-card", { clipPath: "inset(0% 0% 100% 0%)", scaleX: 1.12 }, { clipPath: "inset(0% 0% 0% 0%)", scaleX: 1, duration: 0.55, ease: "expo.out" }, L({{T_IN}}));
+    tl.fromTo("#ct-label", { opacity: 0, scaleX: 1.3, transformOrigin: "0% 50%" }, { opacity: 0.6, scaleX: 1, duration: 0.5, ease: "expo.out" }, L({{T_IN}}));
+    tl.fromTo("#ct-art", { opacity: 0 }, { opacity: 1, duration: 0.2 }, L({{T_IN}}) + 0.15);
+    ["#ct-f1", "#ct-f2", "#ct-f3", "#ct-f4", "#ct-f5"].forEach((id, k) => {
+      tl.fromTo(id, { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "expo.out" }, L({{T_IN}}) + 0.2 + k * 0.05);
+    });
+    ["#ct-r1", "#ct-r2", "#ct-r3", "#ct-r4"].forEach((id, k) => {
+      tl.fromTo(id, { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.35, ease: "power4.out" }, L({{T_IN}}) + 0.35 + k * 0.08);
+    });
+    tl.fromTo("#ct-r2, #ct-r3, #ct-r4", { opacity: 1 }, { opacity: 0.45, duration: 0.2 }, L({{T_IN}}) + 0.9);
+    ["#ct-b2", "#ct-b3", "#ct-b4"].forEach((id) => tl.fromTo(id, { scaleX: 0 }, { scaleX: 0, duration: 0.01 }, 0));
+    // « vos primes » : le montant se verrouille
+    tl.fromTo("#ct-shackle", { y: -16 }, { y: 0, duration: 0.3, ease: "back.out(2.2)" }, L({{T_PRIME}}));
+    tl.fromTo("#ct-lock", { scale: 1 }, { scale: 0.92, duration: 0.08, yoyo: true, repeat: 1, ease: "power2.out" }, L({{T_PRIME}}) + 0.22);
+    // « couverture »
+    tl.to("#ct-r2", { opacity: 1, duration: 0.15 }, L({{T_COUV}}));
+    tl.fromTo("#ct-b2", { scaleX: 0 }, { scaleX: 0.42, duration: 0.5, ease: "expo.out" }, L({{T_COUV}}));
+    // « frais » : la ligne passe en rouge
+    tl.to("#ct-r3", { opacity: 1, duration: 0.1 }, L({{T_FRAIS}}) - 0.05);
+    tl.fromTo("#ct-bg3", { scaleX: 0 }, { scaleX: 1, duration: 0.32, ease: "expo.out" }, L({{T_FRAIS}}) - 0.05);
+    tl.fromTo("#ct-b3", { scaleX: 0 }, { scaleX: 0.3, duration: 0.5, ease: "expo.out" }, L({{T_FRAIS}}) + 0.05);
+    tl.fromTo("#ct-t3", { scale: 1.25, transformOrigin: "0% 50%" }, { scale: 1, duration: 0.45, ease: "back.out(2)" }, L({{T_FRAIS}}) - 0.05);
+    tl.to("#ct-r4", { opacity: 1, duration: 0.15 }, L({{T_FRAIS}}) + 0.25);
+    tl.fromTo("#ct-b4", { scaleX: 0 }, { scaleX: 0.28, duration: 0.5, ease: "expo.out" }, L({{T_FRAIS}}) + 0.25);
+    window.__timelines["contrat"] = tl;
+  </script>
+</template>

@@ -1,0 +1,524 @@
+[
+  {
+    "text": "Votre",
+    "start": 0.01,
+    "end": 0.42,
+    "id": "w0"
+  },
+  {
+    "text": "troisième",
+    "start": 0.42,
+    "end": 1.2,
+    "id": "w1"
+  },
+  {
+    "text": "pilier",
+    "start": 1.27,
+    "end": 1.67,
+    "id": "w2"
+  },
+  {
+    "text": "est",
+    "start": 1.75,
+    "end": 1.99,
+    "id": "w3"
+  },
+  {
+    "text": "en",
+    "start": 1.99,
+    "end": 2.16,
+    "id": "w4"
+  },
+  {
+    "text": "assurance?",
+    "start": 2.16,
+    "end": 3.19,
+    "id": "w5"
+  },
+  {
+    "text": "Vous",
+    "start": 3.19,
+    "end": 3.44,
+    "id": "w6"
+  },
+  {
+    "text": "avez",
+    "start": 3.44,
+    "end": 3.66,
+    "id": "w7"
+  },
+  {
+    "text": "déjà",
+    "start": 3.69,
+    "end": 3.94,
+    "id": "w8"
+  },
+  {
+    "text": "pensé",
+    "start": 3.94,
+    "end": 4.25,
+    "id": "w9"
+  },
+  {
+    "text": "à",
+    "start": 4.25,
+    "end": 4.31,
+    "id": "w10"
+  },
+  {
+    "text": "la",
+    "start": 4.31,
+    "end": 4.43,
+    "id": "w11"
+  },
+  {
+    "text": "banque?",
+    "start": 4.43,
+    "end": 4.81,
+    "id": "w12"
+  },
+  {
+    "text": "En",
+    "start": 5.05,
+    "end": 5.22,
+    "id": "w13"
+  },
+  {
+    "text": "assurance,",
+    "start": 5.4,
+    "end": 6.18,
+    "id": "w14"
+  },
+  {
+    "text": "une",
+    "start": 6.23,
+    "end": 6.49,
+    "id": "w15"
+  },
+  {
+    "text": "partie",
+    "start": 6.49,
+    "end": 7.03,
+    "id": "w16"
+  },
+  {
+    "text": "de",
+    "start": 7.03,
+    "end": 7.22,
+    "id": "w17"
+  },
+  {
+    "text": "vos",
+    "start": 7.22,
+    "end": 7.47,
+    "id": "w18"
+  },
+  {
+    "text": "primes",
+    "start": 7.47,
+    "end": 8.08,
+    "id": "w19"
+  },
+  {
+    "text": "par",
+    "start": 8.1,
+    "end": 8.26,
+    "id": "w20"
+  },
+  {
+    "text": "en",
+    "start": 8.26,
+    "end": 8.38,
+    "id": "w21"
+  },
+  {
+    "text": "couverture",
+    "start": 8.38,
+    "end": 9,
+    "id": "w22"
+  },
+  {
+    "text": "et",
+    "start": 9.12,
+    "end": 9.24,
+    "id": "w23"
+  },
+  {
+    "text": "en",
+    "start": 9.24,
+    "end": 9.48,
+    "id": "w24"
+  },
+  {
+    "text": "frais.",
+    "start": 9.48,
+    "end": 10.2,
+    "id": "w25"
+  },
+  {
+    "text": "En",
+    "start": 10.21,
+    "end": 10.38,
+    "id": "w26"
+  },
+  {
+    "text": "banque,",
+    "start": 10.56,
+    "end": 11.12,
+    "id": "w27"
+  },
+  {
+    "text": "même",
+    "start": 11.12,
+    "end": 11.49,
+    "id": "w28"
+  },
+  {
+    "text": "avantage",
+    "start": 11.49,
+    "end": 12.23,
+    "id": "w29"
+  },
+  {
+    "text": "fiscal,",
+    "start": 12.23,
+    "end": 13,
+    "id": "w30"
+  },
+  {
+    "text": "moins",
+    "start": 13.26,
+    "end": 13.48,
+    "id": "w31"
+  },
+  {
+    "text": "de",
+    "start": 13.48,
+    "end": 13.66,
+    "id": "w32"
+  },
+  {
+    "text": "frais.",
+    "start": 13.66,
+    "end": 14.16,
+    "id": "w33"
+  },
+  {
+    "text": "Et",
+    "start": 14.29,
+    "end": 14.42,
+    "id": "w34"
+  },
+  {
+    "text": "vous",
+    "start": 14.64,
+    "end": 14.7,
+    "id": "w35"
+  },
+  {
+    "text": "versez",
+    "start": 14.7,
+    "end": 15.12,
+    "id": "w36"
+  },
+  {
+    "text": "quand",
+    "start": 15.13,
+    "end": 15.47,
+    "id": "w37"
+  },
+  {
+    "text": "vous",
+    "start": 15.47,
+    "end": 15.75,
+    "id": "w38"
+  },
+  {
+    "text": "voulez,",
+    "start": 15.75,
+    "end": 16.31,
+    "id": "w39"
+  },
+  {
+    "text": "ce",
+    "start": 16.31,
+    "end": 16.45,
+    "id": "w40"
+  },
+  {
+    "text": "que",
+    "start": 16.45,
+    "end": 16.66,
+    "id": "w41"
+  },
+  {
+    "text": "vous",
+    "start": 16.66,
+    "end": 16.73,
+    "id": "w42"
+  },
+  {
+    "text": "voulez.",
+    "start": 17.33,
+    "end": 17.6,
+    "id": "w43"
+  },
+  {
+    "text": "Mais",
+    "start": 17.6,
+    "end": 17.96,
+    "id": "w44"
+  },
+  {
+    "text": "attention,",
+    "start": 17.96,
+    "end": 18.65,
+    "id": "w45"
+  },
+  {
+    "text": "toutes",
+    "start": 18.65,
+    "end": 19.07,
+    "id": "w46"
+  },
+  {
+    "text": "les",
+    "start": 19.07,
+    "end": 19.27,
+    "id": "w47"
+  },
+  {
+    "text": "banques",
+    "start": 19.35,
+    "end": 19.77,
+    "id": "w48"
+  },
+  {
+    "text": "ne",
+    "start": 19.77,
+    "end": 19.91,
+    "id": "w49"
+  },
+  {
+    "text": "se",
+    "start": 19.91,
+    "end": 20.03,
+    "id": "w50"
+  },
+  {
+    "text": "valent",
+    "start": 20.03,
+    "end": 20.46,
+    "id": "w51"
+  },
+  {
+    "text": "pas.",
+    "start": 20.65,
+    "end": 20.92,
+    "id": "w52"
+  },
+  {
+    "text": "Et",
+    "start": 20.93,
+    "end": 21.09,
+    "id": "w53"
+  },
+  {
+    "text": "à",
+    "start": 21.09,
+    "end": 21.28,
+    "id": "w54"
+  },
+  {
+    "text": "la",
+    "start": 21.28,
+    "end": 21.34,
+    "id": "w55"
+  },
+  {
+    "text": "retraite,",
+    "start": 21.34,
+    "end": 22.2,
+    "id": "w56"
+  },
+  {
+    "text": "l'écart",
+    "start": 22.2,
+    "end": 22.59,
+    "id": "w57"
+  },
+  {
+    "text": "sur",
+    "start": 22.67,
+    "end": 22.84,
+    "id": "w58"
+  },
+  {
+    "text": "votre",
+    "start": 22.84,
+    "end": 23.17,
+    "id": "w59"
+  },
+  {
+    "text": "capital",
+    "start": 23.17,
+    "end": 23.36,
+    "id": "w60"
+  },
+  {
+    "text": "peut",
+    "start": 23.36,
+    "end": 23.98,
+    "id": "w61"
+  },
+  {
+    "text": "être",
+    "start": 23.98,
+    "end": 24.14,
+    "id": "w62"
+  },
+  {
+    "text": "important.",
+    "start": 24.19,
+    "end": 24.92,
+    "id": "w63"
+  },
+  {
+    "text": "Faites",
+    "start": 25.01,
+    "end": 25.45,
+    "id": "w64"
+  },
+  {
+    "text": "analyser",
+    "start": 25.45,
+    "end": 26.06,
+    "id": "w65"
+  },
+  {
+    "text": "votre",
+    "start": 26.06,
+    "end": 26.45,
+    "id": "w66"
+  },
+  {
+    "text": "troisième",
+    "start": 26.45,
+    "end": 27.15,
+    "id": "w67"
+  },
+  {
+    "text": "pilier",
+    "start": 27.15,
+    "end": 27.45,
+    "id": "w68"
+  },
+  {
+    "text": "à",
+    "start": 27.5,
+    "end": 27.67,
+    "id": "w69"
+  },
+  {
+    "text": "actuel,",
+    "start": 27.67,
+    "end": 28.34,
+    "id": "w70"
+  },
+  {
+    "text": "par",
+    "start": 28.38,
+    "end": 28.55,
+    "id": "w71"
+  },
+  {
+    "text": "un",
+    "start": 28.55,
+    "end": 28.66,
+    "id": "w72"
+  },
+  {
+    "text": "expert.",
+    "start": 28.7,
+    "end": 29.28,
+    "id": "w73"
+  },
+  {
+    "text": "C'est",
+    "start": 29.29,
+    "end": 29.63,
+    "id": "w74"
+  },
+  {
+    "text": "gratuit,",
+    "start": 29.64,
+    "end": 30.28,
+    "id": "w75"
+  },
+  {
+    "text": "et",
+    "start": 30.28,
+    "end": 30.42,
+    "id": "w76"
+  },
+  {
+    "text": "on",
+    "start": 30.42,
+    "end": 30.56,
+    "id": "w77"
+  },
+  {
+    "text": "vous",
+    "start": 30.56,
+    "end": 30.85,
+    "id": "w78"
+  },
+  {
+    "text": "dit",
+    "start": 30.85,
+    "end": 31.07,
+    "id": "w79"
+  },
+  {
+    "text": "exactement",
+    "start": 31.07,
+    "end": 31.71,
+    "id": "w80"
+  },
+  {
+    "text": "ce",
+    "start": 31.81,
+    "end": 31.91,
+    "id": "w81"
+  },
+  {
+    "text": "qu'il",
+    "start": 31.95,
+    "end": 32.26,
+    "id": "w82"
+  },
+  {
+    "text": "y",
+    "start": 32.26,
+    "end": 32.34,
+    "id": "w83"
+  },
+  {
+    "text": "a",
+    "start": 32.34,
+    "end": 32.38,
+    "id": "w84"
+  },
+  {
+    "text": "à",
+    "start": 32.38,
+    "end": 32.44,
+    "id": "w85"
+  },
+  {
+    "text": "optimiser.",
+    "start": 32.44,
+    "end": 33.08,
+    "id": "w86"
+  }
+]

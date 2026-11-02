@@ -1,0 +1,25 @@
+<template>
+  <style>
+    {{FONTS}}
+    #root { position: absolute; inset: 0; }
+    .cg {
+      position: absolute; left: 90px; right: 90px; top: {{CAP_TOP}}px; height: 150px;
+      display: flex; flex-wrap: wrap; align-content: center; justify-content: center; column-gap: 0.26em;
+      text-align: center; overflow: visible;
+      font-family: 'Inter Tight'; font-weight: 800; font-size: 60px; line-height: 1.1; letter-spacing: -0.025em;
+    }
+    .cg.late { top: {{CAP_TOP_LATE}}px; }
+    .cg.light { color: {{CREAM}}; }
+    .cg.dark { color: {{INK}}; }
+    .cw { display: inline-block; }
+    .cw.red { color: {{RED}}; }
+  </style>
+  <div id="root" data-composition-id="captions" data-width="{{W}}" data-height="{{H}}">
+    {{GROUPS}}
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    {{CAP_JS}}
+    window.__timelines["captions"] = tl;
+  </script>
+</template>

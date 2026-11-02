@@ -1,0 +1,89 @@
+<template>
+  <style>
+    {{FONTS}}
+    #root { position: absolute; inset: 0; }
+    #bq-all { position: absolute; inset: 0; }
+    #bq-wipe { position: absolute; inset: 0; background: {{CREAM}}; }
+    #bq-stage { position: absolute; left: 0; width: {{W}}px; top: {{STAGE_TOP}}px; height: {{STAGE_H}}px; color: {{INK}}; }
+    #bq-title {
+      position: absolute; left: 90px; top: 30px; white-space: nowrap;
+      font-family: 'Inter Tight'; font-weight: 900; font-size: 150px; letter-spacing: -0.045em; line-height: 1;
+    }
+    #bq-title em { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; letter-spacing: -0.01em; font-size: 1.2em; }
+    .bq-row { position: absolute; left: 90px; width: 900px; border-top: 3px solid {{INK}}; }
+    .bq-n { position: absolute; left: 0; top: 30px; font-family: 'Inter Tight'; font-weight: 800; font-size: 30px; color: {{RED}}; letter-spacing: 0.04em; }
+    .bq-t {
+      position: absolute; left: 70px; top: 14px; white-space: nowrap;
+      font-family: 'Inter Tight'; font-weight: 900; font-size: 72px; letter-spacing: -0.045em; line-height: 1.1;
+    }
+    .bq-t em { font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; letter-spacing: -0.005em; font-size: 1.2em; }
+    #bq-check { position: absolute; right: 0; top: 30px; width: 76px; height: 76px; }
+    #bq-fbar { position: absolute; left: 70px; top: 128px; height: 26px; width: 620px; background: {{RED}}; transform-origin: 0 50%; }
+    #bq-flabel { position: absolute; left: 70px; top: 166px; font-family: 'Inter Tight'; font-weight: 800; font-size: 30px; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.6; }
+    #bq-lock { position: absolute; right: 0; top: 4px; width: 70px; height: 92px; overflow: visible; }
+    #bq-track { position: absolute; left: 70px; top: 150px; width: 830px; height: 8px; background: rgba(11, 20, 38, 0.18); border-radius: 4px; }
+    #bq-fillbar { position: absolute; left: 0; top: 0; height: 8px; width: 830px; background: {{INK}}; border-radius: 4px; transform-origin: 0 50%; }
+    #bq-knob { position: absolute; left: -28px; top: -24px; width: 56px; height: 56px; border-radius: 50%; background: {{INK}}; border: 8px solid {{CREAM}}; box-shadow: 0 0 0 3px {{INK}}; }
+    #bq-tick { position: absolute; left: 70px; top: 196px; font-family: 'Inter Tight'; font-weight: 800; font-size: 30px; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.6; }
+  </style>
+  <div id="root" data-composition-id="banque" data-width="{{W}}" data-height="{{H}}">
+    <div id="bq-all">
+      <div id="bq-wipe"></div>
+      <div id="bq-stage">
+        <div id="bq-title">{{TITLE_HTML}}</div>
+        <div class="bq-row" id="bq-r1" style="top: 260px; height: 140px">
+          <div class="bq-n">01</div>
+          <div class="bq-t" id="bq-t1">Même avantage fiscal</div>
+          <svg id="bq-check" viewBox="0 0 76 76"><circle cx="38" cy="38" r="35" fill="{{RED}}" /><path id="bq-checkp" d="M22 39 L33 50 L55 27" fill="none" stroke="{{CREAM}}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" pathLength="1" stroke-dasharray="1" /></svg>
+        </div>
+        <div class="bq-row" id="bq-r2" style="top: 420px; height: 230px">
+          <div class="bq-n">02</div>
+          <div class="bq-t" id="bq-t2">Moins de frais</div>
+          <div id="bq-fbar"></div>
+          <div id="bq-flabel">frais</div>
+        </div>
+        <div class="bq-row" id="bq-r3" style="top: 670px; height: 270px">
+          <div class="bq-n">03</div>
+          <div class="bq-t" id="bq-t3">Versez <em>librement</em></div>
+          <svg id="bq-lock" viewBox="0 0 60 80">
+            <path id="bq-shackle" d="M15 42 V29 a15 15 0 0 1 30 0 V42" fill="none" stroke="{{INK}}" stroke-width="7" />
+            <rect x="4" y="40" width="52" height="38" rx="5" fill="{{INK}}" />
+          </svg>
+          <div id="bq-track"><div id="bq-fillbar"></div><div id="bq-knob"></div></div>
+          <div id="bq-tick">Quand vous voulez · ce que vous voulez</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const S = {{S}};
+    const L = (g) => Math.max(0, g - S);
+    const tl = gsap.timeline({ paused: true });
+    // bascule crème : masque diagonal net
+    tl.fromTo("#bq-all", { clipPath: "polygon(100% 0%, 140% 0%, 140% 100%, 100% 100%)" },
+      { clipPath: "polygon(-40% 0%, 140% 0%, 140% 100%, 0% 100%)", duration: 0.5, ease: "power3.inOut" }, 0);
+    tl.fromTo("#bq-title", { opacity: 0, x: 120 }, { opacity: 1, x: 0, duration: 0.6, ease: "expo.out" }, L({{T_TITLE}}));
+    // les lignes respirent : elles arrivent serrées puis s'ouvrent
+    const rows = [["#bq-r1", "#bq-t1", {{T_FISCAL}}], ["#bq-r2", "#bq-t2", {{T_MOINS}}], ["#bq-r3", "#bq-t3", {{T_VERSEZ}}]];
+    rows.forEach(([row, t, at]) => {
+      tl.fromTo(row, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: "expo.out" }, L(at) - 0.08);
+      tl.fromTo(t, { scaleX: 0.82, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 0.9, ease: "expo.out" }, L(at) - 0.08);
+    });
+    tl.fromTo("#bq-check", { scale: 0, transformOrigin: "50% 50%" }, { scale: 1, duration: 0.45, ease: "back.out(2)" }, L({{T_FISCAL}}) + 0.5);
+    tl.fromTo("#bq-checkp", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.35, ease: "power2.out" }, L({{T_FISCAL}}) + 0.7);
+    // « moins de frais » : la ligne frais rétrécit
+    tl.fromTo("#bq-fbar", { scaleX: 1 }, { scaleX: 0.22, duration: 0.9, ease: "expo.inOut" }, L({{T_MOINS}}) + 0.25);
+    // le cadenas s'ouvre
+    tl.fromTo("#bq-shackle", { y: 0, rotation: 0 }, { y: -12, rotation: -32, svgOrigin: "45 42", duration: 0.5, ease: "back.out(2.4)" }, L({{T_OPEN}}));
+    // le curseur glisse librement
+    tl.fromTo("#bq-track", { scaleX: 0, transformOrigin: "0% 50%" }, { scaleX: 1, duration: 0.5, ease: "expo.out" }, L({{T_VERSEZ}}) + 0.05);
+    tl.fromTo("#bq-tick", { opacity: 0 }, { opacity: 0.6, duration: 0.3 }, L({{T_SL1}}));
+    tl.fromTo("#bq-knob", { x: 60 }, { x: 610, duration: 0.85, ease: "power2.inOut" }, L({{T_SL1}}));
+    tl.fromTo("#bq-fillbar", { scaleX: 60 / 830 }, { scaleX: 610 / 830, duration: 0.85, ease: "power2.inOut" }, L({{T_SL1}}));
+    tl.to("#bq-knob", { x: 240, duration: 0.8, ease: "power2.inOut" }, L({{T_SL2}}));
+    tl.to("#bq-fillbar", { scaleX: 240 / 830, duration: 0.8, ease: "power2.inOut" }, L({{T_SL2}}));
+    tl.to("#bq-knob", { x: 520, duration: 0.7, ease: "power2.inOut" }, L({{T_SL3}}));
+    tl.to("#bq-fillbar", { scaleX: 520 / 830, duration: 0.7, ease: "power2.inOut" }, L({{T_SL3}}));
+    window.__timelines["banque"] = tl;
+  </script>
+</template>
