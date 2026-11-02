@@ -136,3 +136,10 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Non supprimé (refusé par Kevin au moment de l'appel) :** campagne vide `3PA_Frontaliers_2026-11` (`120251865273950642`), qui reste **archivée** (masquée de la liste des campagnes, ne diffuse pas).
 - **Vérifié après nettoyage :** `3PA_Romandie-Frontaliers_2026-11` intacte, en pause, 1 ensemble `Romandie-Frontaliers_creas`, 6 pubs (en examen Meta). Options Advantage+ Creative désormais identiques sur les 6 pubs (1 option désactivée chacune).
 - **Compte Meta à ce jour :** 2 campagnes visibles : `3PA_Romandie-Frontaliers_2026-11` (pause) et « 3P banque » (active, à mettre en pause au lancement).
+
+## 2026-11-02 — Instagram dissocié du compte publicitaire
+
+- **Problème :** erreur Meta #3858231 sur les pubs (choix « gratuit avec publicités » non fait sur @monpilier3), Meta associant automatiquement @monpilier3.
+- **Action de Kevin :** @monpilier3 dissocié du compte publicitaire Tellancia (lien avec la Page conservé).
+- **Vérifié :** Adspirer ne voit plus aucun compte Instagram sur le compte publicitaire. Les 6 pubs sont passées de « en examen » à **PAUSED** (examen terminé, aucun refus affiché). Campagne et ensemble en pause.
+- **À confirmer par Kevin dans le gestionnaire :** l'erreur #3858231 a disparu ; sinon recréer la pub concernée.
