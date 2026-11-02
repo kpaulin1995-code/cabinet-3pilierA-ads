@@ -96,3 +96,12 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Vidéos :** option C, les 4 vidéos restent avec « même avantage fiscal » (décision assumée par Kevin, exception notée dans `CLAUDE.md` §3.8). Textes d'annonce toujours sans argument fiscal.
 - **Visuels fixes :** retouches demandées à la Créa (tenue DA sur « vendu », vue lisible sur « Et la banque ? »), gratuit en priorité, plafond FLORA 0,72 $ accepté par Kevin.
 - **Instagram :** Kevin guidé pour attribuer le compte Instagram au compte publicitaire.
+
+## 2026-11-02 — Création des pubs : blocages techniques
+
+- **Instagram :** @monpilier3 (`17841457576459624`) autorisé sur le compte publicitaire et relié à la Page (vérifié via Adspirer).
+- **Vidéos « vendu » téléversées dans la bibliothèque Meta** (l'appel a expiré après l'envoi) : 4:5 = `2123172968307143`, 9:16 = `2576681176130074` (identifiées par la taille des miniatures). Réutilisables sans renvoi.
+- **Blocage 1 :** l'ensemble copié `Romandie-Frontaliers_large` (`120251865264420642`) est un ensemble **contenu dynamique** (hérité de « 3P banque ») → 1 seule pub possible. Il faut un nouvel ensemble classique.
+- **Blocage 2 :** Meta refuse plusieurs textes/titres dans une pub qui a une vidéo par format (4:5 + 9:16) → 1 texte + 1 titre par pub (texte 1 / titre 1), le texte 2 sera testé plus tard.
+- **Blocage 3 :** création du nouvel ensemble refusée « Aucun annonceur indiqué » (DSA) malgré `dsa_beneficiary` envoyé (« Tellancia Sàrl » puis « Tellancia Sarl ») → Adspirer ne semble pas le transmettre à la création. Solution demandée à Kevin : définir le bénéficiaire/payeur par défaut dans les paramètres du compte publicitaire Meta.
+- **Rien n'a été créé à cette étape** (aucune pub, aucun nouvel ensemble). Campagne toujours en pause.
