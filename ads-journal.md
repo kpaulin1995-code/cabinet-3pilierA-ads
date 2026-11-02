@@ -151,3 +151,20 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Fait :** V4_motion_C recréée (`120251866277480642`, nouvelle vidéo C 9:16) ; recréation de F2 refusée 3 fois (même erreur, prise en compte côté Meta probablement en cours) ; anciennes V4 (`120251865900470642`) et F2 (`120251865917200642`) **supprimées**.
 - **Relu :** 5 pubs en pause dans `Romandie-Frontaliers_creas` : V1_Long_vendu, V2_AB-hookA_banque, V3_motion_A, V4_motion_C (nouvelle), F1_visuel_banque. Campagne en pause.
 - **À faire :** retenter F2_visuel_vendu (hash `df765327f7dc06dda72e1bf5e2fe4ce7`) plus tard ; Kevin vérifie l'absence d'erreur sur la nouvelle V4 dans le gestionnaire.
+
+## 2026-11-02 — Lancement bloqué puis reconstruction propre des pubs
+
+- **« lance » (Kevin) :** « 3P banque » mise en PAUSE ; campagne, ensemble et 5 pubs activés → les 5 pubs en **WITH_ISSUES** (erreur #3858231 : Meta avait attribué d'office @monpilier3 comme identité Instagram, choix publicitaire européen non fait). Aucune diffusion, aucune dépense.
+- **Cause :** la liaison de @monpilier3 (demandée par moi à l'étape 0) a déclenché l'exigence du choix « gratuit avec publicités ». Avant, les pubs passaient sur Instagram au nom de la Page, sans exigence.
+- **Résolution (Kevin) :** @monpilier3 re-relié ; choix **« Sans paiement avec des publicités »** confirmé dans l'Espace Comptes (capture du 02.11, 18:08).
+- **Reconstruction (campagne mise en PAUSE pendant l'opération) :** 6 pubs recréées avec identité Instagram @monpilier3 (`17841457576459624`), 9:16, texte 1 / titre 1, formulaire `1790789782189392` :
+  - F2_visuel_vendu `120251867073920642`
+  - F1_visuel_banque `120251867076680642`
+  - V1_Long_vendu `120251867078750642`
+  - V2_AB-hookA_banque `120251867084810642`
+  - V3_motion_A `120251867095030642`
+  - V4_motion_C `120251867102310642`
+- **Supprimé :** les 5 anciennes pubs en erreur (`120251865837880642`, `120251865862330642`, `120251865873810642`, `120251866277480642`, `120251865912770642`).
+- **État relu :** campagne `3PA_Romandie-Frontaliers_2026-11` PAUSE, 1 ensemble `Romandie-Frontaliers_creas`, 6 pubs en examen Meta. « 3P banque » en pause. Campagne `3PA_Frontaliers_2026-11` archivée (vide).
+- **Note :** Advantage+ Creative diffère encore (V3, V4 : 83 options désactivées ; autres : 1). Non bloquant.
+- **Au prochain « lance » :** activer les 6 pubs + la campagne (l'ensemble est déjà ACTIVE), puis relire les statuts.
