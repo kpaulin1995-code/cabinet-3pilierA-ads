@@ -143,3 +143,11 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Action de Kevin :** @monpilier3 dissocié du compte publicitaire Tellancia (lien avec la Page conservé).
 - **Vérifié :** Adspirer ne voit plus aucun compte Instagram sur le compte publicitaire. Les 6 pubs sont passées de « en examen » à **PAUSED** (examen terminé, aucun refus affiché). Campagne et ensemble en pause.
 - **À confirmer par Kevin dans le gestionnaire :** l'erreur #3858231 a disparu ; sinon recréer la pub concernée.
+
+## 2026-11-02 — Erreur Instagram #3858231 : correction
+
+- **Constat (gestionnaire, capture de Kevin) :** erreur #3858231 sur F2_visuel_vendu et V4_motion_C uniquement.
+- **Actions de Kevin :** @monpilier3 dissocié de la Page dans le portefeuille ; choix « gratuit avec publicités » fait dans l'app Instagram.
+- **Fait :** V4_motion_C recréée (`120251866277480642`, nouvelle vidéo C 9:16) ; recréation de F2 refusée 3 fois (même erreur, prise en compte côté Meta probablement en cours) ; anciennes V4 (`120251865900470642`) et F2 (`120251865917200642`) **supprimées**.
+- **Relu :** 5 pubs en pause dans `Romandie-Frontaliers_creas` : V1_Long_vendu, V2_AB-hookA_banque, V3_motion_A, V4_motion_C (nouvelle), F1_visuel_banque. Campagne en pause.
+- **À faire :** retenter F2_visuel_vendu (hash `df765327f7dc06dda72e1bf5e2fe4ce7`) plus tard ; Kevin vérifie l'absence d'erreur sur la nouvelle V4 dans le gestionnaire.
