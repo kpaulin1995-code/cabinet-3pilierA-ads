@@ -90,3 +90,9 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Visuels fixes (0 $) :** `creas/exports/visuels/3emePilierA_V1-banque_{4x5,9x16}.png`, `3emePilierA_V2-vendu_{4x5,9x16}.png` — dimensions et URL raw vérifiées (HTTP 200). Contrôle visuel : conformes (« 3ème pilier A », pas de marque, pas de chiffre, rien de fiscal). Remarques : V2 = chemisier crème (DA : haut anthracite/bleu foncé) ; V1 = vue fenêtre surexposée, Jet d'eau peu visible.
 - **Vidéo Long :** fin du plan 2 corrigée par la Créa (visage masqué à 21,15 s, voix finie à 21,13 s), nouveaux MP4 aux mêmes URL. Plus bloquant.
 - **⚠️ Conformité :** les 4 vidéos disent « même avantage fiscal » (Long et C : « Même avantages fiscales », faute d'accord) en voix off et sous-titres. La campagne fusionnée vise aussi les frontaliers → contraire à `CLAUDE.md` §3.8. Décision demandée à Kevin : variantes sans la phrase (quelques centimes FLORA + rendu) et/ou lancement avec les visuels fixes seuls.
+
+## 2026-11-02 — Décisions de Kevin : vidéos telles quelles, visuels à retoucher
+
+- **Vidéos :** option C, les 4 vidéos restent avec « même avantage fiscal » (décision assumée par Kevin, exception notée dans `CLAUDE.md` §3.8). Textes d'annonce toujours sans argument fiscal.
+- **Visuels fixes :** retouches demandées à la Créa (tenue DA sur « vendu », vue lisible sur « Et la banque ? »), gratuit en priorité, plafond FLORA 0,72 $ accepté par Kevin.
+- **Instagram :** Kevin guidé pour attribuer le compte Instagram au compte publicitaire.
