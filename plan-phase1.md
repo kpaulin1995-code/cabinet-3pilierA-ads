@@ -96,7 +96,7 @@ Contrôle conformité (`CLAUDE.md` §3) : « 3ème pilier A » en entier ; aucun
 |---|---|
 | Plan validé par Kevin | ✅ 02.11.2026 |
 | Instagram relié à la Page | ✅ (Kevin), ID à récupérer à la création |
-| Forfait Adspirer : la création demande environ **23 actions** (2 duplications, 6 réglages, 2 pauses, 8 pubs vidéo, 4 visuels fixes, 2 relectures), il en reste ~9 sur 15 ce mois-ci | **bloquant** : offre payante à choisir |
+| Forfait Adspirer : la création demande environ **23 actions** (2 duplications, 6 réglages, 2 pauses, 8 pubs vidéo, 4 visuels fixes, 2 relectures), il en reste 10 sur 15 ce mois-ci | **bloquant** : Kevin s'occupe du forfait |
 | Fin des plans de V1 « vendu » vérifiée par la Créa | à faire |
 | Visuels fixes F1, F2 | version gratuite en production (Créa) ; option payante 0,36–0,72 $ à décider après avoir vu les images |
 | Lien de politique de confidentialité dans le formulaire | ✅ (Kevin) |
