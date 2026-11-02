@@ -65,3 +65,13 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Coût par lead qualifié :** 100 CHF au démarrage, objectif ~50 CHF ensuite. Seuil de coupe 200 CHF sans lead qualifié. Reporté dans `CLAUDE.md`.
 - **Visuels fixes :** version gratuite validée (images clés existantes), production en cours côté Créa. Vérification de la fin des plans de « vendu » demandée.
 - **Reste bloquant avant création :** forfait Adspirer (Kevin s'en occupe) ; fin des plans de V1 « vendu ».
+
+## 2026-11-02 — Étape 3 (création, tout en pause) : campagnes et ciblage CH
+
+- **Adspirer :** forfait Plus (150 appels/mois) activé par Kevin.
+- **Créé (PAUSE) :** duplication de « 3P banque » (aucune pub copiée, catégorie FINANCIAL_PRODUCTS_SERVICES FR+CH conservée, formulaire non encore attaché — il le sera avec les pubs) :
+  - `3PA_CH-Romande_2026-11` (`120251865264400642`), CBO **50 CHF/jour**, ensemble `CH-Romande_large` (`120251865264420642`) : cantons GE, VD, NE, JU, FR + Sion et Monthey (+25 km), 25–65 ans, Facebook/Instagram/Messenger, langue Français (tout) envoyée (à vérifier dans le gestionnaire), Advantage+ Audience activé (hérité).
+  - `3PA_Frontaliers_2026-11` (`120251865273950642`), CBO **50 CHF/jour**, ensemble `Transfert 3A Banque` (`120251865273970642`) **pas encore modifié** (ciblage hérité de « 3P banque », dont Bâle).
+- **Contraintes Meta (catégorie services financiers) découvertes :** rayon minimum autour d'une ville (15 km refusé, 25 km accepté) ; **exclusion de lieux interdite** → impossible d'exclure la Suisse de la campagne frontaliers. Décision demandée à Kevin.
+- **Instagram :** Adspirer ne voit encore aucun compte Instagram lié ou autorisé sur le compte publicitaire.
+- **Pubs :** pas encore créées (attente : Instagram visible, fin des plans de « vendu », visuels fixes).
