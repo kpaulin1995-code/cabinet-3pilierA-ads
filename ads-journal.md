@@ -129,3 +129,10 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
   - Statut : en examen Meta ; campagne PAUSE, rien ne diffuse.
 - **Point d'attention :** les options « Advantage+ Creative » diffèrent entre pubs (V1–V3 : 1 option désactivée ; V4, F1, F2 : 83 désactivées). À harmoniser dans le gestionnaire si on veut une comparaison stricte.
 - **Au « lance » :** activer campagne + ensemble `_creas` + 6 pubs ; mettre « 3P banque » en pause.
+
+## 2026-11-02 — Nettoyage du compte (demande de Kevin)
+
+- **Supprimé :** ensemble vide `Romandie-Frontaliers_large` (`120251865264420642`, ancien ensemble à contenu dynamique, 0 pub).
+- **Non supprimé (refusé par Kevin au moment de l'appel) :** campagne vide `3PA_Frontaliers_2026-11` (`120251865273950642`), qui reste **archivée** (masquée de la liste des campagnes, ne diffuse pas).
+- **Vérifié après nettoyage :** `3PA_Romandie-Frontaliers_2026-11` intacte, en pause, 1 ensemble `Romandie-Frontaliers_creas`, 6 pubs (en examen Meta). Options Advantage+ Creative désormais identiques sur les 6 pubs (1 option désactivée chacune).
+- **Compte Meta à ce jour :** 2 campagnes visibles : `3PA_Romandie-Frontaliers_2026-11` (pause) et « 3P banque » (active, à mettre en pause au lancement).
