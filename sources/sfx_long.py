@@ -11,7 +11,7 @@ CLICK, WHOOSH, POP, PING = "sfx_001.mp3", "sfx_002.mp3", "sfx_003.mp3", "sfx_004
 M3, M5 = s(69) - 0.1, 48.85
 events = [
     # transitions
-    (WHOOSH, 3.95, 0.30), (WHOOSH, s(34) - 0.1, 0.30), (WHOOSH, 18.78, 0.28), (WHOOSH, M3, 0.30),
+    (WHOOSH, 3.95, 0.30), (WHOOSH, s(34) - 0.1, 0.30), (WHOOSH, 18.78, 0.28), (WHOOSH, M3 - 0.25, 0.30),
     (WHOOSH, 34.78, 0.28), (WHOOSH, 40.98, 0.28), (WHOOSH, M5, 0.32),
     # contrats qui tombent, curseur, sticker
     (POP, 4.4, 0.45), (POP, 5.0, 0.45), (POP, 5.7, 0.45), (POP, 6.4, 0.45),

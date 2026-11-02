@@ -209,7 +209,7 @@ face("f2", F2_START, 2.45, "f2_banque.mp4", "", "",
      enter=f'tl.fromTo("#f2-all", {{ clipPath: "circle(0px at 540px {r(845 + DY)}px)" }}, {{ clipPath: "circle(2300px at 540px {r(845 + DY)}px)", duration: 0.45, ease: "power3.inOut" }}, 0);')
 
 # ---------------------------------------------------------------- M3 · la bascule en banque (clair)
-m3_start, m3_end = s(69) - 0.1, s(85) + 0.35
+m3_start, m3_end = s(69) - 0.35, s(85) + 0.35   # F2 couvert avant la fin de « banque ? » : le clip continue à parler après
 body = f"""
 <div class="all light" id="m3-all">
   <div id="m3-tog" style="position:absolute; left:140px; top:{300 + DY}px; width:800px; height:140px; border-radius:70px; background:#FFFFFF; box-shadow:0 20px 44px rgba(11,20,38,0.14)">
@@ -237,13 +237,13 @@ css = f"""
 .sep {{ position: absolute; left: 40px; right: 40px; height: 2px; background: #ECE7DC; }}
 """
 js = f"""
-tl.fromTo("#m3-all", {{ clipPath: "polygon(100% 0%, 140% 0%, 140% 100%, 100% 100%)" }}, {{ clipPath: "polygon(-40% 0%, 140% 0%, 140% 100%, 0% 100%)", duration: 0.5, ease: "power3.inOut" }}, 0);
-tl.fromTo("#m3-tog", {{ y: -60, opacity: 0 }}, {{ y: 0, opacity: 1, duration: 0.5, ease: "expo.out" }}, 0.15);
+tl.fromTo("#m3-all", {{ clipPath: "polygon(100% 0%, 140% 0%, 140% 100%, 100% 100%)" }}, {{ clipPath: "polygon(-40% 0%, 140% 0%, 140% 100%, 0% 100%)", duration: 0.2, ease: "power3.inOut" }}, 0);
+tl.fromTo("#m3-tog", {{ y: -60, opacity: 0 }}, {{ y: 0, opacity: 1, duration: 0.5, ease: "expo.out" }}, 0.4);
 // l'interrupteur bascule d'assurance vers banque
-tl.fromTo("#m3-knob", {{ x: 0, backgroundColor: "{SLATE}" }}, {{ x: 390, backgroundColor: "{RED}", duration: 0.45, ease: "back.out(1.6)" }}, 0.6);
-tl.fromTo("#m3-la", {{ color: "{CREAM}" }}, {{ color: "{SLATE}", duration: 0.3 }}, 0.6);
-tl.fromTo("#m3-lb", {{ color: "{INK}" }}, {{ color: "{CREAM}", duration: 0.3 }}, 0.65);
-tl.fromTo("#m3-card", {{ y: 80, opacity: 0 }}, {{ y: 0, opacity: 1, duration: 0.6, ease: "expo.out" }}, 0.5);
+tl.fromTo("#m3-knob", {{ x: 0, backgroundColor: "{SLATE}" }}, {{ x: 390, backgroundColor: "{RED}", duration: 0.45, ease: "back.out(1.6)" }}, 0.85);
+tl.fromTo("#m3-la", {{ color: "{CREAM}" }}, {{ color: "{SLATE}", duration: 0.3 }}, 0.85);
+tl.fromTo("#m3-lb", {{ color: "{INK}" }}, {{ color: "{CREAM}", duration: 0.3 }}, 0.9);
+tl.fromTo("#m3-card", {{ y: 80, opacity: 0 }}, {{ y: 0, opacity: 1, duration: 0.6, ease: "expo.out" }}, 0.75);
 [["#m3-r1", {r(s(69))}], ["#m3-r2", {r(s(72))}], ["#m3-r3", {r(s(75))}]].forEach(([id, at]) => {{
   tl.fromTo(id, {{ opacity: 0.18 }}, {{ opacity: 1, duration: 0.2 }}, L(at) - 0.05);
   tl.fromTo(id + " svg", {{ scale: 0, transformOrigin: "50% 50%" }}, {{ scale: 1, duration: 0.4, ease: "back.out(2.6)" }}, L(at));
