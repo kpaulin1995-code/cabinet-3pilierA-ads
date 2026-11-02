@@ -42,3 +42,12 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Décisions de Kevin :** formulaire simple existant (volume, peu de friction) ; Meta = services financiers ; ChatGPT Ads = catégorie assurance. Reportées dans `CLAUDE.md`.
 - **Points à trancher :** Bâle est germanophone (hors cible) ; Genève +45 km mélange Suisse et frontaliers dans un même ensemble ; que faire de « 3P banque » au lancement de la phase 1 (pause ou maintien) ; la catégorie FINANCIAL_PRODUCTS_SERVICES n'est pas dans la liste d'Adspirer à la création → piste : dupliquer « 3P banque » (garde la catégorie) puis modifier.
 - **Quota Adspirer :** 6 / 15 appels utilisés.
+
+## 2026-11-02 — Décisions de Kevin pour la phase 1 (plan en préparation)
+
+- **Formulaire :** « Lead gen 3P banque 2 » (`1790789782189392`) confirmé.
+- **« 3P banque » :** mise en pause au lancement de la phase 1 (accord de Kevin ; pas avant).
+- **Périmètre élargi :** au lieu du seul test Long contre AB-hookA, on teste plus de contenus : Long (« vendu »), AB-hookA (« Et la banque ? »), motion A, motion C, plus des **visuels fixes** (à produire par la conversation Créa).
+- **Structure :** **2 campagnes** séparées : Suisse romande (résidents francophones) et frontaliers.
+- **Budget :** recommandation demandée (voir réponse du 02.11 : ~75 CHF/jour, ~2 300 CHF/mois), en attente de validation.
+- **Outils Adspirer utiles trouvés :** `duplicate_meta_campaign` (garde catégorie spéciale + formulaire) ; `add_meta_ad` accepte `placement_specific_videos` (feed + stories/reels dans une même publicité) et `story_image_url` pour les visuels fixes.
