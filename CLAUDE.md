@@ -29,7 +29,9 @@ Chaque conversation lit ce fichier en premier et respecte toutes ses règles.
 - contrat souscrit depuis **plus de [5] ans** (les contrats récents ont souvent une valeur de rachat faible : transfert rarement dans l'intérêt du client, donc peu de conversions) ;
 - valeur actuelle estimée ou prime annuelle élevée ([seuils à définir]).
 
-**Questions du formulaire (Meta, formulaire instantané « intention plus élevée ») :**
+**Formulaire retenu (décision de Kevin, 02.11.2026) :** priorité au **volume et à une friction minimale**. On utilise le formulaire Meta existant « Lead gen 3P banque 2 » (ID `1790789782189392`, à confirmer) : où se trouve votre 3e pilier A / travaillez-vous en Suisse / qu'aimeriez-vous améliorer + nom, téléphone, e-mail. La qualification (ancienneté, prime, valeur de rachat) se fait **au téléphone**. Les questions ci-dessous restent la cible si la qualité des leads est insuffisante.
+
+**Questions du formulaire « idéal » (si on doit filtrer davantage) :**
 1. Votre 3ème pilier A est-il en assurance ? (Oui / Non / Je ne sais pas) → « Non » = disqualifié
 2. Depuis quand ? (moins de 3 ans / 3 à 10 ans / plus de 10 ans)
 3. Prime annuelle approximative (moins de 2 000 CHF / 2 000 à 5 000 / plus de 5 000)
@@ -50,9 +52,9 @@ Chaque conversation lit ce fichier en premier et respecte toutes ses règles.
 7. **Transparence sur la rémunération :** avant tout conseil, le client est informé par écrit des commissions perçues (obligation légale, art. 26 LSFin). Ce n'est pas à mettre dans la pub, mais c'est à intégrer dans le parcours de RDV.
 8. **Frontaliers :** le traitement fiscal du 3ème pilier A dépend du canton et du statut (imposition à la source, quasi-résident). **Aucune promesse d'avantage fiscal dans les annonces visant les frontaliers.**
 9. **Plateformes :**
-   - Meta : finance et assurance = catégorie sensible. Vérifier si la catégorie spéciale « Produits et services financiers » s'applique (obligatoire pour certaines parties de l'Europe, donc probablement pour la France). Si oui, l'utiliser et respecter les restrictions de ciblage (âge, genre, lookalikes limités).
+   - Meta : **catégorie spéciale « Produits et services financiers » (FINANCIAL_PRODUCTS_SERVICES), pays CH + FR — confirmé par Kevin**, déjà appliquée sur la campagne existante « 3P banque ». Respecter les restrictions de ciblage (âge, genre, lookalikes limités).
    - Google : la vérification « services financiers » s'applique dans toute l'UE, donc en France. Vérifier aussi pour la Suisse. Si elle est requise, me dire quoi fournir AVANT de créer les campagnes.
-   - ChatGPT Ads : vérifier que la diffusion est possible en Suisse et en France avant de prévoir quoi que ce soit.
+   - ChatGPT Ads : déclarer la catégorie **assurance** (pas services financiers, sinon refus — info Kevin). Vérifier que la diffusion est possible en Suisse et en France avant de prévoir quoi que ce soit.
 10. Ton **naturel, informatif, convivial, rassurant**. Rien qui « fasse IA ».
 11. En cas de doute réglementaire : demander, ne pas deviner.
 

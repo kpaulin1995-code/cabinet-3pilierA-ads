@@ -32,3 +32,13 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
   - catégories spéciales proposées : HOUSING, CREDIT, EMPLOYMENT, ISSUES_ELECTIONS_POLITICS ; la catégorie « Produits et services financiers » n'apparaît pas sous ce nom (à vérifier) ;
   - champ DSA (bénéficiaire / payeur) obligatoire pour les ensembles qui ciblent la France.
 - **Vidéos :** dépôt rendu public ; URL raw GitHub vérifiées (HTTP 200, taille exacte) et notées dans `creas/creas-index.md`.
+
+## 2026-11-02 — Étape 1 (audit, lecture seule) : premiers constats
+
+- **Campagne existante :** « 3P banque » (`120251826305830642`), **ACTIVE** depuis le 31.10.2026, créée par Kevin hors de cette conversation. Prospects, CBO 25 CHF/jour, catégorie spéciale FINANCIAL_PRODUCTS_SERVICES (FR, CH). 1 ensemble « Transfert 3A Banque » : Bâle +30 km, Genève +45 km, Lausanne +30 km, Neuchâtel +30 km, 25–65 ans, Advantage+ Audience. 1 publicité « HOOK C » (1 texte, 3 titres, 2 descriptions).
+- **Résultats à vie (au 02.11) :** 78,34 CHF dépensés, 910 impressions, 607 personnes atteintes, 9 clics, CTR 0,99 %, CPC 8,70 CHF. Leads : 1 sur le formulaire « Lead gen 3P banque 2 » (Adspirer compte 0 conversion sur 90 jours, données de la veille).
+- **Formulaires de la Page :** « Lead gen 3P banque 2 » `1790789782189392` (1 lead) ; « Analyse gratuite de votre 3ème pilier A » `2079258669399367` (3 leads) ; « 3e pilier ouvert avant 2017 ? (v1) » `2644410509293100` (0 lead).
+- **Pixel Meta :** aucun sur le compte publicitaire.
+- **Décisions de Kevin :** formulaire simple existant (volume, peu de friction) ; Meta = services financiers ; ChatGPT Ads = catégorie assurance. Reportées dans `CLAUDE.md`.
+- **Points à trancher :** Bâle est germanophone (hors cible) ; Genève +45 km mélange Suisse et frontaliers dans un même ensemble ; que faire de « 3P banque » au lancement de la phase 1 (pause ou maintien) ; la catégorie FINANCIAL_PRODUCTS_SERVICES n'est pas dans la liste d'Adspirer à la création → piste : dupliquer « 3P banque » (garde la catégorie) puis modifier.
+- **Quota Adspirer :** 6 / 15 appels utilisés.
