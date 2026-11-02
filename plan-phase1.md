@@ -1,4 +1,4 @@
-# Plan phase 1 — Meta (version du 02.11.2026, à valider par Kevin)
+# Plan phase 1 — Meta (version du 02.11.2026, **validée par Kevin le 02.11.2026**)
 
 Rien n'est créé tant que Kevin n'a pas validé ce plan. Tout sera créé **en pause**.
 
@@ -83,8 +83,8 @@ Contrôle conformité (`CLAUDE.md` §3) : « 3ème pilier A » en entier ; aucun
 - Hypothèse de coût par lead brut, **à confirmer avec les vrais chiffres** : Suisse 30 à 60 CHF, France 20 à 40 CHF. Soit environ 25 à 50 leads par mois en Suisse et 38 à 76 côté frontaliers.
 - Avec 4 à 6 pubs par campagne, il faudra **2 à 3 semaines** pour départager les créas.
 
-## 7. Règles de décision (proposées, à valider)
-- **Coût cible par lead qualifié : 100 CHF** (provisoire, à ajuster quand on connaîtra la valeur d'un transfert).
+## 7. Règles de décision (validées)
+- **Coût cible par lead qualifié : 100 CHF au démarrage, objectif ~50 CHF ensuite.**
 - **Couper une pub** si elle a dépensé **200 CHF (2 × la cible) sans aucun lead qualifié**, après 7 jours minimum.
 - **Désigner une gagnante** après au moins **7 jours et 10 leads** sur la pub, sur le coût par lead qualifié, puis sur le coût par RDV dès qu'il y en a assez.
 - **Scaling :** +20 % maximum, pas plus d'une fois tous les 3 jours par campagne, toujours avec l'accord de Kevin.
@@ -94,10 +94,10 @@ Contrôle conformité (`CLAUDE.md` §3) : « 3ème pilier A » en entier ; aucun
 
 | Point | État |
 |---|---|
-| Plan validé par Kevin | à faire |
-| Instagram relié à la Page | en cours (Kevin) |
+| Plan validé par Kevin | ✅ 02.11.2026 |
+| Instagram relié à la Page | ✅ (Kevin), ID à récupérer à la création |
 | Forfait Adspirer : la création demande environ **23 actions** (2 duplications, 6 réglages, 2 pauses, 8 pubs vidéo, 4 visuels fixes, 2 relectures), il en reste ~9 sur 15 ce mois-ci | **bloquant** : offre payante à choisir |
 | Fin des plans de V1 « vendu » vérifiée par la Créa | à faire |
-| Visuels fixes F1, F2 | devis demandé à la Créa (non bloquant pour le lancement des vidéos) |
-| Lien de politique de confidentialité dans le formulaire | à vérifier (Kevin) |
+| Visuels fixes F1, F2 | version gratuite en production (Créa) ; option payante 0,36–0,72 $ à décider après avoir vu les images |
+| Lien de politique de confidentialité dans le formulaire | ✅ (Kevin) |
 | Site | https://monpilier3.ch (répond) |

@@ -58,3 +58,10 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Infos :** nom légal Tellancia Sàrl (DSA) ; site https://monpilier3.ch.
 - **Plan :** `plan-phase1.md` (structure, ciblage, contenus, textes, règles de décision, points bloquants).
 - **Créa :** demande de devis envoyée pour 2 visuels fixes (4:5 + 9:16), aucune génération payante sans accord de Kevin.
+
+## 2026-11-02 — Plan phase 1 validé
+
+- **Validé par Kevin :** `plan-phase1.md` (structure, ciblage, textes). Instagram relié, formulaire et lien de confidentialité OK.
+- **Coût par lead qualifié :** 100 CHF au démarrage, objectif ~50 CHF ensuite. Seuil de coupe 200 CHF sans lead qualifié. Reporté dans `CLAUDE.md`.
+- **Visuels fixes :** version gratuite validée (images clés existantes), production en cours côté Créa. Vérification de la fin des plans de « vendu » demandée.
+- **Reste bloquant avant création :** forfait Adspirer (Kevin s'en occupe) ; fin des plans de V1 « vendu ».

@@ -21,7 +21,7 @@ Chaque conversation lit ce fichier en premier et respecte toutes ses règles.
 **Entonnoir suivi :** Lead → Lead qualifié → RDV tenu → Transfert signé → Capital transféré.
 
 - **KPI principal :** coût d'acquisition par **CHF de capital transféré** (ou coût par transfert signé tant que le volume est faible).
-- **KPI intermédiaires :** coût par lead qualifié ≤ [X CHF] ; coût par RDV tenu ≤ [X CHF] ; taux de joignabilité ≥ [X %].
+- **KPI intermédiaires :** coût par lead qualifié ≤ **100 CHF au démarrage, objectif ~50 CHF ensuite** (décision de Kevin du 02.11.2026) ; coût par RDV tenu ≤ [X CHF] ; taux de joignabilité ≥ [X %].
 - **On n'optimise jamais sur le coût par lead brut.**
 - **Budget :** **3 050 CHF/mois maximum** sur Meta (50 CHF/jour Suisse romande + 50 CHF/jour frontaliers, décision de Kevin du 02.11.2026). Ne jamais le dépasser.
 
@@ -92,11 +92,11 @@ Voir `creas/creas-index.md` (source de vérité : fichier, angle, hook, format, 
 ## 6. Media buying (conversation dédiée, via Adspirer)
 
 - **Document de campagne de départ :** https://claude.ai/artifact/2LUPUYfda4wD7Rzff552yU
-- **Phase 1 (Meta) :** test A/B des hooks « vendu » (Long) contre « Et la banque ? » (AB-hookA). Même audience, même budget, même formulaire. Deux zones séparées : Suisse romande / frontaliers (France voisine), car les règles et les performances diffèrent.
-- **Règle de décision du test :** minimum [7] jours ET [X] leads par variante ; on tranche sur le **coût par lead qualifié**, puis sur le coût par RDV dès qu'il y a assez de données.
+- **Phase 1 (Meta), version validée le 02.11.2026 : voir `plan-phase1.md`** (2 campagnes, 4 vidéos + 2 visuels fixes). Version d'origine : test A/B des hooks « vendu » (Long) contre « Et la banque ? » (AB-hookA). Même audience, même budget, même formulaire. Deux zones séparées : Suisse romande / frontaliers (France voisine), car les règles et les performances diffèrent.
+- **Règle de décision du test :** minimum 7 jours ET 10 leads par pub ; on tranche sur le **coût par lead qualifié**, puis sur le coût par RDV dès qu'il y a assez de données.
 - **Phase 2 (Google Search), après validation de la phase 1 :** intentions fortes, par ex. « transférer 3ème pilier assurance banque », « résilier 3ème pilier assurance », « valeur de rachat 3ème pilier », « 3ème pilier assurance ou banque ». Volumes et CPC réels via Keyword Planner. Mots-clés négatifs (emploi, définition, PDF, noms de marques…).
 - **Phase 3 (ChatGPT Ads), optionnelle :** seulement si la diffusion est disponible sur nos zones.
-- **Seuils d'arrêt :** couper une annonce si dépense > [2×] le coût par lead qualifié cible sans lead qualifié.
+- **Seuils d'arrêt :** couper une annonce si dépense > 2× le coût par lead qualifié cible sans lead qualifié (200 CHF au démarrage, 100 CHF quand la cible passera à 50 CHF), après 7 jours minimum.
 - **Scaling :** +20 % de budget maximum à la fois, pas plus d'une fois tous les 3 jours par campagne.
 
 ## 7. Règles de sécurité (non négociables)
