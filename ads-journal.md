@@ -51,3 +51,10 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Structure :** **2 campagnes** séparées : Suisse romande (résidents francophones) et frontaliers.
 - **Budget :** recommandation demandée (voir réponse du 02.11 : ~75 CHF/jour, ~2 300 CHF/mois), en attente de validation.
 - **Outils Adspirer utiles trouvés :** `duplicate_meta_campaign` (garde catégorie spéciale + formulaire) ; `add_meta_ad` accepte `placement_specific_videos` (feed + stories/reels dans une même publicité) et `story_image_url` pour les visuels fixes.
+
+## 2026-11-02 — Plan phase 1 rédigé (en attente de validation)
+
+- **Budget validé par Kevin :** 50 CHF/jour par campagne (Suisse romande + frontaliers), soit ~3 040 CHF/mois. Reporté dans `CLAUDE.md`.
+- **Infos :** nom légal Tellancia Sàrl (DSA) ; site https://monpilier3.ch.
+- **Plan :** `plan-phase1.md` (structure, ciblage, contenus, textes, règles de décision, points bloquants).
+- **Créa :** demande de devis envoyée pour 2 visuels fixes (4:5 + 9:16), aucune génération payante sans accord de Kevin.

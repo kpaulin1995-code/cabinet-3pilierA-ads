@@ -7,7 +7,7 @@ Chaque conversation lit ce fichier en premier et respecte toutes ses règles.
 
 ## 1. Le client, l'offre et l'objectif business
 
-- **Annonceur :** cabinet de courtage en assurance et libre passage, basé à Genève. Statut : [intermédiaire d'assurance inscrit au registre FINMA n° X / conseiller inscrit au registre LSFin n° X].
+- **Annonceur :** **Tellancia Sàrl** (nom légal, à utiliser comme bénéficiaire/payeur DSA pour la France), cabinet de courtage en assurance et libre passage, basé à Genève. Site : https://monpilier3.ch ; Page Facebook « Mon Pilier 3.ch ». Statut : [intermédiaire d'assurance inscrit au registre FINMA n° X / conseiller inscrit au registre LSFin n° X].
 - **Modèle économique :** le cabinet perçoit des **commissions de gestion récurrentes** sur les capitaux de 3ème pilier A placés en banque. La valeur d'un client est donc proportionnelle au **capital transféré**.
 - **Cible (angle actuel, exclusif) :** personnes qui ont un **3ème pilier A souscrit en assurance**, résidant en **Suisse romande** ou **frontaliers** (France voisine) travaillant en Suisse. On n'élargit pas à d'autres angles pour l'instant.
 - **Offre :** **analyse gratuite par un expert** du contrat d'assurance existant. On ne pousse pas le transfert : on pose la question et on propose de faire le point.
@@ -23,13 +23,13 @@ Chaque conversation lit ce fichier en premier et respecte toutes ses règles.
 - **KPI principal :** coût d'acquisition par **CHF de capital transféré** (ou coût par transfert signé tant que le volume est faible).
 - **KPI intermédiaires :** coût par lead qualifié ≤ [X CHF] ; coût par RDV tenu ≤ [X CHF] ; taux de joignabilité ≥ [X %].
 - **On n'optimise jamais sur le coût par lead brut.**
-- **Budget :** [X CHF/mois]. Ne jamais le dépasser.
+- **Budget :** **3 050 CHF/mois maximum** sur Meta (50 CHF/jour Suisse romande + 50 CHF/jour frontaliers, décision de Kevin du 02.11.2026). Ne jamais le dépasser.
 
 **Lead qualifié =** a un 3ème pilier A **en assurance** + joignable + accepte un RDV, avec en priorité :
 - contrat souscrit depuis **plus de [5] ans** (les contrats récents ont souvent une valeur de rachat faible : transfert rarement dans l'intérêt du client, donc peu de conversions) ;
 - valeur actuelle estimée ou prime annuelle élevée ([seuils à définir]).
 
-**Formulaire retenu (décision de Kevin, 02.11.2026) :** priorité au **volume et à une friction minimale**. On utilise le formulaire Meta existant « Lead gen 3P banque 2 » (ID `1790789782189392`, à confirmer) : où se trouve votre 3e pilier A / travaillez-vous en Suisse / qu'aimeriez-vous améliorer + nom, téléphone, e-mail. La qualification (ancienneté, prime, valeur de rachat) se fait **au téléphone**. Les questions ci-dessous restent la cible si la qualité des leads est insuffisante.
+**Formulaire retenu (décision de Kevin, 02.11.2026) :** priorité au **volume et à une friction minimale**. On utilise le formulaire Meta existant « Lead gen 3P banque 2 » (ID `1790789782189392`, confirmé) : où se trouve votre 3e pilier A / travaillez-vous en Suisse / qu'aimeriez-vous améliorer + nom, téléphone, e-mail. La qualification (ancienneté, prime, valeur de rachat) se fait **au téléphone**. Les questions ci-dessous restent la cible si la qualité des leads est insuffisante.
 
 **Questions du formulaire « idéal » (si on doit filtrer davantage) :**
 1. Votre 3ème pilier A est-il en assurance ? (Oui / Non / Je ne sais pas) → « Non » = disqualifié
