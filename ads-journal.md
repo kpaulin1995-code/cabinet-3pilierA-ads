@@ -105,3 +105,9 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Blocage 2 :** Meta refuse plusieurs textes/titres dans une pub qui a une vidéo par format (4:5 + 9:16) → 1 texte + 1 titre par pub (texte 1 / titre 1), le texte 2 sera testé plus tard.
 - **Blocage 3 :** création du nouvel ensemble refusée « Aucun annonceur indiqué » (DSA) malgré `dsa_beneficiary` envoyé (« Tellancia Sàrl » puis « Tellancia Sarl ») → Adspirer ne semble pas le transmettre à la création. Solution demandée à Kevin : définir le bénéficiaire/payeur par défaut dans les paramètres du compte publicitaire Meta.
 - **Rien n'a été créé à cette étape** (aucune pub, aucun nouvel ensemble). Campagne toujours en pause.
+
+## 2026-11-02 — DSA réglé, nouveau blocage Instagram
+
+- **DSA :** Kevin a défini le bénéficiaire/payeur par défaut → plus d'erreur « Aucun annonceur indiqué ».
+- **Blocage :** Meta refuse la pub : « Le ou la propriétaire de @monpilier3 doit se connecter à Instagram et choisir d'utiliser les produits Meta gratuitement ou de s'abonner » (choix publicitaire européen, code 3858231). Action de Kevin dans l'app Instagram.
+- **Vérifié :** rien n'a été créé (toujours 1 ensemble, 0 pub). Campagne en pause.
