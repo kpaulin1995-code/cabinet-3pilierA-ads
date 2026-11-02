@@ -111,3 +111,21 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **DSA :** Kevin a défini le bénéficiaire/payeur par défaut → plus d'erreur « Aucun annonceur indiqué ».
 - **Blocage :** Meta refuse la pub : « Le ou la propriétaire de @monpilier3 doit se connecter à Instagram et choisir d'utiliser les produits Meta gratuitement ou de s'abonner » (choix publicitaire européen, code 3858231). Action de Kevin dans l'app Instagram.
 - **Vérifié :** rien n'a été créé (toujours 1 ensemble, 0 pub). Campagne en pause.
+
+## 2026-11-02 — Étape 3 terminée : 6 pubs créées (campagne en pause)
+
+- **Identité Instagram :** option A validée par Kevin → pubs créées **sans** compte @monpilier3 (diffusion Instagram au nom de la Page, comme « 3P banque »). Aucun impact sur la diffusion. Kevin pourra faire le choix « gratuit avec publicités » sur @monpilier3 plus tard.
+- **Nouvel ensemble classique** `Romandie-Frontaliers_creas` (`120251865837390642`), même ciblage que `Romandie-Frontaliers_large` (5 cantons + Sion/Monthey + 9 villes FR à 25 km, 25–65 ans, FB/IG/Messenger), langue Français (tout), Advantage+ Audience désactivé, formulaire `1790789782189392`, DSA Tellancia Sàrl (défaut du compte).
+- **Ancien ensemble** `Romandie-Frontaliers_large` (`120251865264420642`, contenu dynamique) : vide, en pause. À archiver (accord de Kevin à demander).
+- **Formats :** 9:16 uniquement (Adspirer perd le formulaire quand une pub a 2 formats). Kevin ajoutera les 4:5 dans le gestionnaire.
+- **Textes :** texte 1 + titre 1 + description + « En savoir plus » sur les 6 pubs (Meta refuse plusieurs textes avec la personnalisation par placement ; on a gardé la même règle partout pour comparer les créas à égalité).
+- **Pubs (relues) :**
+  - V1_Long_vendu `120251865837880642` (vidéo `2576681176130074`)
+  - V2_AB-hookA_banque `120251865862330642`
+  - V3_motion_A `120251865873810642`
+  - V4_motion_C `120251865900470642`
+  - F1_visuel_banque `120251865912770642` (image `269d862a68da8782ad0717b7b6b1b59f`)
+  - F2_visuel_vendu `120251865917200642` (image `df765327f7dc06dda72e1bf5e2fe4ce7`)
+  - Statut : en examen Meta ; campagne PAUSE, rien ne diffuse.
+- **Point d'attention :** les options « Advantage+ Creative » diffèrent entre pubs (V1–V3 : 1 option désactivée ; V4, F1, F2 : 83 désactivées). À harmoniser dans le gestionnaire si on veut une comparaison stricte.
+- **Au « lance » :** activer campagne + ensemble `_creas` + 6 pubs ; mettre « 3P banque » en pause.

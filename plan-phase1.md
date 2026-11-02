@@ -10,6 +10,8 @@ Rien n'est créé tant que Kevin n'a pas validé ce plan. Tout sera créé **en 
 > - Suivi Suisse / France : découpage des résultats **par pays** dans Meta + réponse « Travaillez-vous en Suisse ? » du formulaire. Surveiller la part du budget qui part en France à chaque point perf.
 > Les sections 2 et 3 ci-dessous décrivent la version à 2 campagnes, remplacée par cette fusion.
 
+> **Réalisé le 02.11.2026 (tout en pause) :** ensemble classique `Romandie-Frontaliers_creas` (`120251865837390642`) avec 6 pubs en **9:16 uniquement** (V1 vendu, V2 Et la banque ?, V3 motion A, V4 motion C, F1 et F2 visuels fixes), **texte 1 + titre 1** seulement (limites Meta/Adspirer), identité Instagram = Page Facebook. Détails et IDs dans `ads-journal.md`.
+
 ## 1. Ce qui change par rapport au brief de départ
 - On ne compare plus seulement 2 hooks : on teste **4 vidéos + 2 visuels fixes** (décision de Kevin, pour multiplier les contenus).
 - **2 campagnes séparées**, Suisse romande et frontaliers, au lieu de 2 ensembles dans une campagne.
