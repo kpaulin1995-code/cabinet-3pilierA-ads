@@ -168,3 +168,9 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **État relu :** campagne `3PA_Romandie-Frontaliers_2026-11` PAUSE, 1 ensemble `Romandie-Frontaliers_creas`, 6 pubs en examen Meta. « 3P banque » en pause. Campagne `3PA_Frontaliers_2026-11` archivée (vide).
 - **Note :** Advantage+ Creative diffère encore (V3, V4 : 83 options désactivées ; autres : 1). Non bloquant.
 - **Au prochain « lance » :** activer les 6 pubs + la campagne (l'ensemble est déjà ACTIVE), puis relire les statuts.
+
+## 2026-11-02 — Grand nettoyage du compte (demande de Kevin)
+
+- **Supprimé :** « 3P banque » (`120251826305830642`, en pause, remplacée) et `3PA_Frontaliers_2026-11` (`120251865273950642`, archivée, vide), avec leurs ensembles et pubs. Historique de dépense toujours visible dans les rapports Meta.
+- **Vérifié :** le compte ne contient plus qu'**une campagne** `3PA_Romandie-Frontaliers_2026-11` (PAUSE, 100 CHF/jour) → 1 ensemble `Romandie-Frontaliers_creas` → 6 pubs (en examen).
+- **Restant côté Kevin :** abandonner les brouillons de l'éditeur (« Publicité sans nom », « Ensemble de publicités sans nom ») — non accessibles par l'API.
