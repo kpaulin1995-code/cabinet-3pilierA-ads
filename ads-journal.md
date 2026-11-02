@@ -75,3 +75,12 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Contraintes Meta (catégorie services financiers) découvertes :** rayon minimum autour d'une ville (15 km refusé, 25 km accepté) ; **exclusion de lieux interdite** → impossible d'exclure la Suisse de la campagne frontaliers. Décision demandée à Kevin.
 - **Instagram :** Adspirer ne voit encore aucun compte Instagram lié ou autorisé sur le compte publicitaire.
 - **Pubs :** pas encore créées (attente : Instagram visible, fin des plans de « vendu », visuels fixes).
+
+## 2026-11-02 — Fusion en une seule campagne (accord de Kevin : « ok fusion »)
+
+- **Raison :** catégorie services financiers = pas d'exclusion de lieux + rayon minimum 25 km → chevauchement inévitable entre 2 campagnes (Genève dans les cercles des villes françaises), donc données faussées.
+- **Fait (relu après modification) :** `3PA_Romandie-Frontaliers_2026-11` (`120251865264400642`) PAUSE, 100 CHF/jour, catégorie FINANCIAL_PRODUCTS_SERVICES FR+CH ; ensemble `Romandie-Frontaliers_large` : 5 cantons + Sion/Monthey + 9 villes françaises à 25 km, 25–65 ans, FB/IG/Messenger. `3PA_Frontaliers_2026-11` archivée.
+- **Non visible dans la relecture Adspirer (à vérifier dans le gestionnaire) :** langue Français (tout), DSA Tellancia Sàrl.
+- **Textes :** communs, sans argument fiscal (voir `plan-phase1.md` §5).
+- **Résultat attendu :** pas de chevauchement ; lecture Suisse / France par le découpage par pays et la question du formulaire.
+- **Reste avant les pubs :** Instagram attribué au compte publicitaire (Kevin) ; fin des plans de « vendu » (Créa) ; visuels fixes (Créa).

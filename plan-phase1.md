@@ -2,6 +2,14 @@
 
 Rien n'est créé tant que Kevin n'a pas validé ce plan. Tout sera créé **en pause**.
 
+> **Mise à jour du 02.11.2026 — FUSION validée par Kevin (« ok fusion ») : une seule campagne.**
+> Meta interdit d'exclure des lieux avec la catégorie services financiers, et impose un rayon minimum de 25 km : impossible de séparer proprement Suisse et frontaliers sans chevauchement (Genève est dans les 25 km d'Annemasse, Ferney, Gex, Saint-Julien). Donc :
+> - **Campagne unique `3PA_Romandie-Frontaliers_2026-11`** (`120251865264400642`), en pause, **100 CHF/jour** (budget de campagne). Ensemble `Romandie-Frontaliers_large` (`120251865264420642`) : cantons GE, VD, NE, JU, FR + Sion et Monthey (25 km) + Annemasse, Saint-Julien-en-Genevois, Thonon, Annecy, Gex, Ferney-Voltaire, Pontarlier, Morteau, Les Rousses (25 km chacune). 25–65 ans, Facebook + Instagram + Messenger, Advantage+ Audience, DSA Tellancia Sàrl.
+> - `3PA_Frontaliers_2026-11` (`120251865273950642`) **archivée** (vide, réversible).
+> - **Textes communs, sans aucun argument fiscal** (section 5 mise à jour).
+> - Suivi Suisse / France : découpage des résultats **par pays** dans Meta + réponse « Travaillez-vous en Suisse ? » du formulaire. Surveiller la part du budget qui part en France à chaque point perf.
+> Les sections 2 et 3 ci-dessous décrivent la version à 2 campagnes, remplacée par cette fusion.
+
 ## 1. Ce qui change par rapport au brief de départ
 - On ne compare plus seulement 2 hooks : on teste **4 vidéos + 2 visuels fixes** (décision de Kevin, pour multiplier les contenus).
 - **2 campagnes séparées**, Suisse romande et frontaliers, au lieu de 2 ensembles dans une campagne.
@@ -52,24 +60,14 @@ Note frontaliers : Meta ne permet pas de cibler « travaille en Suisse ». On vi
 - **Avant le lancement :** la Créa doit vérifier la fin des plans face caméra de V1 « vendu » (lèvres qui bougent après la voix).
 - Toutes les pubs d'une campagne ont **les mêmes textes**, pour que seule la créa change.
 
-## 5. Textes d'annonce
+## 5. Textes d'annonce (communs, validés le 02.11.2026)
 
-Limites suivies : texte principal ≤ 125 caractères visibles avant « voir plus » (l'accroche est au début) ; titre ≤ 40 ; description ≤ 30.
-Meta teste les combinaisons (2 textes × 2 titres) dans chaque pub.
+Limites suivies : texte principal ≤ 125 caractères visibles avant « voir plus » ; titre ≤ 40 ; description ≤ 30. Meta teste les combinaisons (2 textes × 2 titres) dans chaque pub.
 
-### Suisse romande
 - **Texte 1 :** Votre 3ème pilier A est en assurance ? En banque, les frais sont souvent plus bas et les versements restent libres. Mais chaque contrat est différent : un expert analyse le vôtre gratuitement, avec vous.
-- **Texte 2 :** Prime fixe chaque année, frais difficiles à lire… Votre 3ème pilier A vous convient-il encore ? Avant de changer quoi que ce soit, faites-le analyser gratuitement par un expert. Sans engagement.
+- **Texte 2 :** Vous vivez ou travaillez en Suisse romande et votre 3ème pilier A est en assurance ? Avant toute décision, faites le point avec un expert : frais, flexibilité, valeur de rachat. Analyse gratuite et sans engagement.
 - **Titre 1 :** Analyse gratuite de votre 3ème pilier A
 - **Titre 2 :** Assurance ou banque : faites le point
-- **Description :** Gratuit et sans engagement
-- **Bouton :** En savoir plus
-
-### Frontaliers (aucun argument fiscal)
-- **Texte 1 :** Vous travaillez en Suisse et votre 3ème pilier A est en assurance ? Frais, prime fixe, couverture incluse : chaque contrat est différent. Un expert analyse le vôtre gratuitement, avec vous.
-- **Texte 2 :** Frontalier avec un 3ème pilier A en assurance ? Avant toute décision, faites le point avec un expert : frais, flexibilité, valeur de rachat. Analyse gratuite et sans engagement.
-- **Titre 1 :** Frontaliers : votre 3ème pilier A
-- **Titre 2 :** Analyse gratuite par un expert
 - **Description :** Gratuit et sans engagement
 - **Bouton :** En savoir plus
 
