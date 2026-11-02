@@ -174,3 +174,11 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Supprimé :** « 3P banque » (`120251826305830642`, en pause, remplacée) et `3PA_Frontaliers_2026-11` (`120251865273950642`, archivée, vide), avec leurs ensembles et pubs. Historique de dépense toujours visible dans les rapports Meta.
 - **Vérifié :** le compte ne contient plus qu'**une campagne** `3PA_Romandie-Frontaliers_2026-11` (PAUSE, 100 CHF/jour) → 1 ensemble `Romandie-Frontaliers_creas` → 6 pubs (en examen).
 - **Restant côté Kevin :** abandonner les brouillons de l'éditeur (« Publicité sans nom », « Ensemble de publicités sans nom ») — non accessibles par l'API.
+
+## 2026-11-02 — LANCEMENT phase 1 (« ok lance » de Kevin)
+
+- **Activé :** campagne `3PA_Romandie-Frontaliers_2026-11` (`120251865264400642`), 100 CHF/jour, ensemble `Romandie-Frontaliers_creas` et 6 pubs.
+- **Relu après activation :** 4 pubs **ACTIVE** sans erreur (V1_Long_vendu, V2_AB-hookA_banque, F1_visuel_banque, F2_visuel_vendu) ; 2 pubs en examen Meta (V3_motion_A, V4_motion_C), activées, elles démarreront à la validation.
+- **Brouillons de l'éditeur** (`_VF`, `- Copie`) : jamais publiés, à supprimer par Kevin dans le gestionnaire.
+- **Règles en vigueur :** aucune modification pendant 7 jours (apprentissage) ; coupe d'une pub à 200 CHF dépensés sans lead qualifié ; gagnante à ≥ 7 jours et ≥ 10 leads ; scaling +20 % max tous les 3 jours avec accord.
+- **Premier point perf conseillé :** demain (vérifier diffusion, part Instagram, part Suisse/France, premiers leads).
