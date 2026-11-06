@@ -1,6 +1,6 @@
 # Calendrier Tellancia : 10 novembre → 3 décembre 2026
 
-Statut : **brouillon, à valider par Kevin**. Rien n'est programmé dans Metricool.
+Statut : **validé par Kevin et programmé dans Metricool le 06.11.2026** (voir `journal.md`).
 
 **LinkedIn : pas encore de page (06.11.2026).** Les textes LinkedIn sont gardés ici pour plus tard ; ils ne sont pas programmés.
 **Alternance des visuels (décision de Kevin, 06.11.2026) :** une photo, puis une infographie. Les infographies 01, 03, 05 et 07 sont gardées en réserve pour un prochain calendrier.
