@@ -5,6 +5,8 @@ Statut : **brouillon, à valider par Kevin**. Rien n'est programmé dans Metrico
 **LinkedIn : pas encore de page (06.11.2026).** Les textes LinkedIn sont gardés ici pour plus tard ; ils ne sont pas programmés.
 **Alternance des visuels (décision de Kevin, 06.11.2026) :** une photo, puis une infographie. Les infographies 01, 03, 05 et 07 sont gardées en réserve pour un prochain calendrier.
 Comptes Metricool (marque 7916284, fuseau Europe/Zurich) : Facebook, Instagram @tellancia, Google Business.
+Photos : générées avec FLORA (Nano Banana Pro, 8 variantes, 1,44 $, 06.11.2026), habillées par `sources/build_photos.js`. Variantes brutes dans `photos/variantes/`, alternatives `P1_cabinet_alt` et `P5_libre_passage_alt`. Posts avec photo : cocher « contenu généré par IA » sur Instagram.
+Médias pour Metricool : URL brutes GitHub (dépôt public), ex. `https://raw.githubusercontent.com/kpaulin1995-code/cabinet-3pilierA-ads/main/organique-tellancia/visuels/P1_cabinet.png`.
 
 Rythme : mardi et jeudi sur Facebook, Instagram et LinkedIn (même visuel, texte adapté) ; Google Business un jeudi sur deux.
 Horaires validés par Kevin : Facebook et Instagram **12 h 15**, Google Business **9 h 00** (LinkedIn **8 h 15** plus tard). Heure de Genève.
