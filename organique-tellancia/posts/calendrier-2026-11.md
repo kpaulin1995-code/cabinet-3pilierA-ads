@@ -2,20 +2,24 @@
 
 Statut : **brouillon, à valider par Kevin**. Rien n'est programmé dans Metricool.
 
+**LinkedIn : pas encore de page (06.11.2026).** Les textes LinkedIn sont gardés ici pour plus tard ; ils ne sont pas programmés.
+**Alternance des visuels (décision de Kevin, 06.11.2026) :** une photo, puis une infographie. Les infographies 01, 03, 05 et 07 sont gardées en réserve pour un prochain calendrier.
+Comptes Metricool (marque 7916284, fuseau Europe/Zurich) : Facebook, Instagram @tellancia, Google Business.
+
 Rythme : mardi et jeudi sur Facebook, Instagram et LinkedIn (même visuel, texte adapté) ; Google Business un jeudi sur deux.
-Horaires proposés (à affiner avec les statistiques Metricool une fois les comptes connectés) : Facebook et Instagram **12 h 15**, LinkedIn **8 h 15**, Google Business **9 h 00** (heure de Genève).
+Horaires validés par Kevin : Facebook et Instagram **12 h 15**, Google Business **9 h 00** (LinkedIn **8 h 15** plus tard). Heure de Genève.
 Visuels : `visuels/` (1080×1350), générés par `sources/build_visuels.js`.
 
 | # | Date | Thème | Visuel | Réseaux |
 |---|---|---|---|---|
-| 1 | mar. 10.11 | Le cabinet | `01_cabinet.png` | FB · IG · LI |
-| 2 | jeu. 12.11 | 3ème pilier A : versement avant le 31.12 | `02_3pilierA_3112.png` | FB · IG · LI · **GBP** |
-| 3 | mar. 17.11 | LAMal : faire le point avant le 30.11 | `03_lamal.png` | FB · IG · LI |
-| 4 | jeu. 19.11 | Lire son certificat LPP | `04_certificat_lpp.png` | FB · IG · LI |
-| 5 | mar. 24.11 | Libre passage entre deux emplois | `05_libre_passage.png` | FB · IG · LI |
-| 6 | jeu. 26.11 | Notre méthode | `06_methode.png` | FB · IG · LI · **GBP** |
-| 7 | mar. 01.12 | 3ème pilier A ou B | `07_3pilier_A_ou_B.png` | FB · IG · LI |
-| 8 | jeu. 03.12 | Protection de la famille | `08_protection_famille.png` | FB · IG · LI |
+| 1 | mar. 10.11 | Le cabinet | **photo** `P1_cabinet.png` | FB · IG |
+| 2 | jeu. 12.11 | 3ème pilier A : versement avant le 31.12 | infographie `02_3pilierA_3112.png` | FB · IG · **GBP** |
+| 3 | mar. 17.11 | LAMal : faire le point avant le 30.11 | **photo** `P3_lamal.png` | FB · IG |
+| 4 | jeu. 19.11 | Lire son certificat LPP | infographie `04_certificat_lpp.png` | FB · IG |
+| 5 | mar. 24.11 | Libre passage entre deux emplois | **photo** `P5_libre_passage.png` | FB · IG |
+| 6 | jeu. 26.11 | Notre méthode | infographie `06_methode.png` | FB · IG · **GBP** |
+| 7 | mar. 01.12 | 3ème pilier A ou B | **photo** `P7_3pilier_A_ou_B.png` | FB · IG |
+| 8 | jeu. 03.12 | Protection de la famille | infographie `08_protection_famille.png` | FB · IG |
 
 ---
 
