@@ -93,6 +93,8 @@ Voir `creas/creas-index.md` (source de vérité : fichier, angle, hook, format, 
 ## 6. Media buying (conversation dédiée, via Adspirer)
 
 - **Document de campagne de départ :** https://claude.ai/artifact/2LUPUYfda4wD7Rzff552yU
+- **État au 06.11.2026 : phase 1 EN COURS.** Une seule campagne Meta active : `3PA_Romandie-Frontaliers_2026-11` (`120251865264400642`), 100 CHF/jour, catégorie services financiers (CH + FR), ensemble `Romandie-Frontaliers_creas` (5 cantons romands + Sion/Monthey + 9 villes frontalières françaises à 25 km), formulaire « Lead gen 3P banque 2 », 6 pubs en 9:16 (V1 vendu, V2 Et la banque ?, V3 motion A, V4 motion C, F1 et F2 visuels fixes), identité Instagram @monpilier3. Lancée le 02.11.2026 au soir. Détails et IDs : `ads-journal.md`.
+- **Contraintes Meta apprises :** catégorie services financiers = rayon minimum 25 km autour d'une ville, aucune exclusion de lieux possible (d'où une seule campagne Suisse + frontaliers) ; le compte Instagram doit avoir fait le choix « gratuit avec publicités » (Espace Comptes → Préférences publicitaires) sinon toutes les pubs sont bloquées (erreur #3858231) ; Adspirer ne garde pas le formulaire quand une pub a 2 formats (4:5 + 9:16) → une pub = un format.
 - **Phase 1 (Meta), version validée le 02.11.2026 : voir `plan-phase1.md`** (2 campagnes, 4 vidéos + 2 visuels fixes). Version d'origine : test A/B des hooks « vendu » (Long) contre « Et la banque ? » (AB-hookA). Même audience, même budget, même formulaire. Deux zones séparées : Suisse romande / frontaliers (France voisine), car les règles et les performances diffèrent.
 - **Règle de décision du test :** minimum 7 jours ET 10 leads par pub ; on tranche sur le **coût par lead qualifié**, puis sur le coût par RDV dès qu'il y a assez de données.
 - **Phase 2 (Google Search), après validation de la phase 1 :** intentions fortes, par ex. « transférer 3ème pilier assurance banque », « résilier 3ème pilier assurance », « valeur de rachat 3ème pilier », « 3ème pilier assurance ou banque ». Volumes et CPC réels via Keyword Planner. Mots-clés négatifs (emploi, définition, PDF, noms de marques…).
@@ -109,6 +111,7 @@ Voir `creas/creas-index.md` (source de vérité : fichier, angle, hook, format, 
 - Économiser les tool calls Adspirer : regrouper les lectures, ne pas relancer une requête dont on a déjà le résultat.
 - Toute génération payante (FLORA) est chiffrée en USD et validée avant d'être lancée.
 - **Clés et tokens :** jamais dans le chat ni dans un fichier du dépôt. Variables d'environnement uniquement.
+- **Sécurité des comptes Meta :** faux e-mails « Meta » (droits d'auteur, compte restreint, « Soumettre un appel ») = hameçonnage. Vérifier l'expéditeur (vrais domaines : @facebookmail.com, @support.facebook.com, @meta.com) et ne jamais cliquer. Les vraies restrictions s'affichent uniquement dans business.facebook.com/business-support-home. Incident du 03.11.2026 : clic sur un faux e-mail, mot de passe changé, sessions fermées, double authentification active (Facebook : SMS/WhatsApp ; Instagram : application). Ne jamais communiquer un code reçu par SMS/WhatsApp.
 
 ## 8. Organisation du projet
 
@@ -120,11 +123,15 @@ cabinet-3pilierA-ads/
 ├── creas/
 │   └── creas-index.md     ← liste des créas : fichier, URL, angle, hook, format, statut (à tester / en test / gagnante / coupée)
 ├── sources/               ← scripts de montage (build*.py, sfx*.py) ; les MP4 sont stockés hors git (trop lourds) avec leur URL dans creas-index.md
-└── ads-journal.md         ← historique media buying : date, changement, raison, résultat attendu, résultat observé
+├── ads-journal.md         ← historique media buying : date, changement, raison, résultat attendu, résultat observé
+├── plan-phase1.md         ← plan de la phase 1 Meta (validé)
+├── campagne.md            ← copie du document de campagne de départ
+└── organique/             ← (conversation Organique) calendrier éditorial, textes, visuels des publications
 ```
 
 - **Conversation « Créa » :** produit les créas, met à jour `creas/creas-index.md`. Avant une nouvelle série, lit `ads-journal.md` pour partir des angles gagnants.
 - **Conversation « Media buying » :** utilise Adspirer, tient `ads-journal.md`, relit le journal avant chaque « point perf ».
+- **Conversation « Organique » :** publications non payantes sur la Page Facebook « Mon Pilier 3.ch » et Instagram @monpilier3. Règles de conformité (§3) et DA (§4) identiques aux pubs. Tient `organique/` (calendrier, textes, visuels). Avant une nouvelle série, lit `ads-journal.md` pour reprendre les angles qui marchent en pub, et peut réutiliser les créas de `creas/`. Ne touche jamais aux campagnes payantes ni aux réglages du compte publicitaire.
 
 ## 9. Outils et méthode (conversation création)
 
@@ -141,5 +148,7 @@ cabinet-3pilierA-ads/
 
 ## 10. Prochaines étapes
 
-- **Création :** vérifier la fin des plans (lip-sync) sur la version longue « vendu » ; produire les hooks B et D ; déclinaisons courtes (15 s) pour les Stories.
-- **Media buying :** remplir les champs [X] de ce fichier ; mettre en place la remontée des conversions ; lancer le test A/B phase 1.
+- **Media buying :** ne rien modifier sur la campagne avant le 09.11.2026 (apprentissage Meta) ; « point perf » quotidien ; Kevin remonte la qualité des leads (qualifié / RDV / transfert / capital) ; remontée des conversions vers Meta à mettre en place ; tester le texte 2 et les versions 4:5 plus tard ; Google Search (phase 2) seulement quand Kevin le demande.
+- **Création :** hooks B et D ; déclinaisons courtes (15 s) pour les Stories ; nouvelles créas sans argument fiscal (§3.8).
+- **Organique :** à lancer dans une conversation dédiée (§8).
+- **Champs encore vides :** statut réglementaire et n° d'inscription (§1), coût par RDV et taux de joignabilité (§2), ancienneté minimale et seuils de prime (§2), CRM ou Google Sheet et délai de rappel (§2).
