@@ -126,7 +126,7 @@ cabinet-3pilierA-ads/
 ├── ads-journal.md         ← historique media buying : date, changement, raison, résultat attendu, résultat observé
 ├── plan-phase1.md         ← plan de la phase 1 Meta (validé)
 ├── campagne.md            ← copie du document de campagne de départ
-└── organique/             ← (conversation Organique) calendrier éditorial, textes, visuels des publications
+├── organique/             ← (conversation Organique) calendrier éditorial, textes, visuels des publications
 └── organique-tellancia/   ← (conversation Organique Tellancia) règles, logos, posts au nom de Tellancia
 ```
 
