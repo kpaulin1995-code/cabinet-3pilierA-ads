@@ -7,7 +7,7 @@ Chaque conversation lit ce fichier en premier et respecte toutes ses règles.
 
 ## 1. Le client, l'offre et l'objectif business
 
-- **Annonceur :** **Tellancia Sàrl** (nom légal, à utiliser comme bénéficiaire/payeur DSA pour la France), cabinet de courtage en assurance et libre passage, basé à Genève. Site : https://monpilier3.ch ; Page Facebook « Mon Pilier 3.ch ». Statut : [intermédiaire d'assurance inscrit au registre FINMA n° X / conseiller inscrit au registre LSFin n° X].
+- **Annonceur :** **Tellancia Sàrl** (nom légal, à utiliser comme bénéficiaire/payeur DSA pour la France), cabinet de courtage en assurance et libre passage, basé à Genève. Site : https://monpilier3.ch ; Page Facebook « Mon Pilier 3.ch ». Statut : intermédiaire d'assurance inscrit au registre FINMA n° **F01536008** ; conseiller inscrit au registre LSFin n° **37143**. Site du cabinet : https://tellancia.ch
 - **Modèle économique :** le cabinet perçoit des **commissions de gestion récurrentes** sur les capitaux de 3ème pilier A placés en banque. La valeur d'un client est donc proportionnelle au **capital transféré**.
 - **Cible (angle actuel, exclusif) :** personnes qui ont un **3ème pilier A souscrit en assurance**, résidant en **Suisse romande** ou **frontaliers** (France voisine) travaillant en Suisse. On n'élargit pas à d'autres angles pour l'instant.
 - **Offre :** **analyse gratuite par un expert** du contrat d'assurance existant. On ne pousse pas le transfert : on pose la question et on propose de faire le point.
@@ -127,10 +127,12 @@ cabinet-3pilierA-ads/
 ├── plan-phase1.md         ← plan de la phase 1 Meta (validé)
 ├── campagne.md            ← copie du document de campagne de départ
 └── organique/             ← (conversation Organique) calendrier éditorial, textes, visuels des publications
+└── organique-tellancia/   ← (conversation Organique Tellancia) règles, logos, posts au nom de Tellancia
 ```
 
 - **Conversation « Créa » :** produit les créas, met à jour `creas/creas-index.md`. Avant une nouvelle série, lit `ads-journal.md` pour partir des angles gagnants.
 - **Conversation « Media buying » :** utilise Adspirer, tient `ads-journal.md`, relit le journal avant chaque « point perf ».
+- **Conversation « Organique Tellancia » :** publications non payantes **au nom de Tellancia** (Facebook, Instagram, LinkedIn, Google Business) via **Metricool**. Cible particuliers, tous les métiers du cabinet. Règles propres dans `organique-tellancia/README.md` (à lire en premier). Rien n'est programmé sans l'accord explicite de Kevin.
 - **Conversation « Organique » :** publications non payantes sur la Page Facebook « Mon Pilier 3.ch » et Instagram @monpilier3. Règles de conformité (§3) et DA (§4) identiques aux pubs. Tient `organique/` (calendrier, textes, visuels). Avant une nouvelle série, lit `ads-journal.md` pour reprendre les angles qui marchent en pub, et peut réutiliser les créas de `creas/`. Ne touche jamais aux campagnes payantes ni aux réglages du compte publicitaire.
 
 ## 9. Outils et méthode (conversation création)
@@ -151,4 +153,4 @@ cabinet-3pilierA-ads/
 - **Media buying :** ne rien modifier sur la campagne avant le 09.11.2026 (apprentissage Meta) ; « point perf » quotidien ; Kevin remonte la qualité des leads (qualifié / RDV / transfert / capital) ; remontée des conversions vers Meta à mettre en place ; tester le texte 2 et les versions 4:5 plus tard ; Google Search (phase 2) seulement quand Kevin le demande.
 - **Création :** hooks B et D ; déclinaisons courtes (15 s) pour les Stories ; nouvelles créas sans argument fiscal (§3.8).
 - **Organique :** à lancer dans une conversation dédiée (§8).
-- **Champs encore vides :** statut réglementaire et n° d'inscription (§1), coût par RDV et taux de joignabilité (§2), ancienneté minimale et seuils de prime (§2), CRM ou Google Sheet et délai de rappel (§2).
+- **Champs encore vides :** coût par RDV et taux de joignabilité (§2), ancienneté minimale et seuils de prime (§2), CRM ou Google Sheet et délai de rappel (§2).
