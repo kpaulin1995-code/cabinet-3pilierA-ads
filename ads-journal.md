@@ -204,3 +204,9 @@ Source : Adspirer (données Meta de la veille) + formulaire « Lead gen 3P banqu
 
 **Lecture :** les vidéos face caméra (V2, V1) et motion C ramènent les leads les plus ciblés ; F1 fait beaucoup de clics et de leads mais surtout hors cible (pas de 3ème pilier A, ne travaille pas en Suisse) ; F2 ne convertit pas ; V3 n'est presque pas diffusée. Aucune pub n'a encore 10 leads → pas de gagnante désignée.
 **Propositions (en attente d'accord de Kevin, rien n'a été modifié) :** laisser tourner une 2e semaine sans changement ; couper F2 si elle atteint 200 CHF sans lead « en assurance » ; décider pour F1 après les appels ; obtenir les statuts réels (joignable / RDV / transfert) des 7 leads « en assurance ».
+
+## 2026-11-09 — Décision après le point perf n°1
+
+- **Kevin :** on laisse tourner une 2e semaine sans modification. Prochain point perf : **16.11.2026**.
+- **Ensuite :** trier les 65+ par le texte / le titre. Interdit chez Meta (politique « caractéristiques personnelles ») : « Vous avez moins de 60 ans ? ». À préparer : formulations « actifs / vous versez encore / avant la retraite » (2–3 textes et titres) pour remplacer F2 ou compléter.
+- **Option à évaluer le 16.11 :** 2e ensemble Instagram seul si les 65+ restent > 40 % de la dépense.
