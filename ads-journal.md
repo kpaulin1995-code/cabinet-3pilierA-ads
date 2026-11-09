@@ -182,3 +182,25 @@ Tenu par la conversation « Media buying ». Relu avant chaque « point perf ».
 - **Brouillons de l'éditeur** (`_VF`, `- Copie`) : jamais publiés, à supprimer par Kevin dans le gestionnaire.
 - **Règles en vigueur :** aucune modification pendant 7 jours (apprentissage) ; coupe d'une pub à 200 CHF dépensés sans lead qualifié ; gagnante à ≥ 7 jours et ≥ 10 leads ; scaling +20 % max tous les 3 jours avec accord.
 - **Premier point perf conseillé :** demain (vérifier diffusion, part Instagram, part Suisse/France, premiers leads).
+
+## 2026-11-09 — Point perf n°1 (02.11 → 08.11, 7 jours)
+
+Source : Adspirer (données Meta de la veille) + formulaire « Lead gen 3P banque 2 ». Aucune donnée personnelle reportée ici. Après le changement de mot de passe du 03.11, Meta a été reconnecté dans Adspirer le 09.11.
+
+**Global :** 675 CHF dépensés · 17 434 impressions · CTR 1,75 % · CPC 2,21 CHF · fréquence ~1,3 · **15 leads réels** (Meta en compte le double : « lead » + « lead_grouped ») · **coût par lead brut ~45 CHF**.
+**Pré-qualification (réponses du formulaire, avant les appels) :** 7 leads « en assurance » sur 15 (47 %) ; 7 « je n'en ai pas » ; 1 « en banque ». « Travaillez-vous en Suisse ? » : 7 oui / 8 non. Indicatifs : 7 suisses (+41) / 8 français (+33). Tous les « en assurance » travaillent en Suisse. → **coût par lead pré-qualifié ~96 CHF** (cible 100).
+
+| Pub | Dépense | CTR | Leads | « En assurance » | CHF/lead | CHF/pré-qualifié |
+|---|---|---|---|---|---|---|
+| V2_AB-hookA_banque | 108 | 1,81 % | 4 | 2 | 27 | **54** |
+| V4_motion_C | 112 | 1,16 % | 2 | 2 | 56 | **56** |
+| V1_Long_vendu | 74 | 1,78 % | 3 | 1 | 25 | 74 |
+| F1_visuel_banque | 224 | 2,39 % | 5 | 1 | 45 | 224 |
+| F2_visuel_vendu | 133 | 1,60 % | 1 | 0 | 133 | — |
+| V3_motion_A | 23 | 0,96 % | 0 | 0 | — | — (peu diffusée par Meta) |
+
+**Âge (dépense / leads Meta) :** 65+ = 348 CHF (52 %) ; 55-64 = 161 CHF, meilleur coût ; 35-44 : aucun lead. Catégorie services financiers : l'âge n'est pas pilotable.
+**Non disponible via Adspirer :** répartition par pays et par emplacement (Instagram/Stories) → à lire dans le gestionnaire (Répartition → Pays / Emplacement).
+
+**Lecture :** les vidéos face caméra (V2, V1) et motion C ramènent les leads les plus ciblés ; F1 fait beaucoup de clics et de leads mais surtout hors cible (pas de 3ème pilier A, ne travaille pas en Suisse) ; F2 ne convertit pas ; V3 n'est presque pas diffusée. Aucune pub n'a encore 10 leads → pas de gagnante désignée.
+**Propositions (en attente d'accord de Kevin, rien n'a été modifié) :** laisser tourner une 2e semaine sans changement ; couper F2 si elle atteint 200 CHF sans lead « en assurance » ; décider pour F1 après les appels ; obtenir les statuts réels (joignable / RDV / transfert) des 7 leads « en assurance ».
