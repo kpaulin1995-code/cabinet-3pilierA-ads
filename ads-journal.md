@@ -242,3 +242,12 @@ Source : Adspirer (données de la veille) + formulaire. Aucune donnée personnel
 - **Retour de Kevin sur les appels :** beaucoup de non-réponses ; les premiers leads « en assurance » étaient bons ; 9 leads récents « je n'en ai pas » seront quand même appelés.
 - **Note :** Advantage+ Creative diffère sur les 2 nouvelles pubs (83 options désactivées contre 1). À surveiller, non bloquant.
 - **Résultat attendu :** part de leads « en assurance » > 40 % et coût par lead pré-qualifié < 100 CHF d'ici le 23.11. Prochain point perf : **23.11.2026**.
+
+## 2026-11-16 — Nouvelle série de créas demandée à la Créa
+
+- **Validé par Kevin :** 3 vidéos 9:16 à tester après le point perf du 23.11 :
+  1. **Courte face caméra (~18 s)**, script de Kevin (« Votre 3ème pilier A est en assurance ? / Si vous versez tous les mois ou tous les ans… / … / Mais attention ! … valeur de rachat… / Faites analyser votre contrat gratuitement »).
+  2. **« Le pilier qui parle »** : personnage 3D (colonne antique), sans la femme, mascotte potentielle.
+  3. **« La conversation »** : écran de messagerie générique (Papa / Moi), sans la femme, quasi gratuit.
+- **Brief envoyé** à la conversation Créa : devis USD d'abord, rien de payant sans accord de Kevin.
+- **Écarté :** imitation d'appel entrant / notification (refus Meta) ; image de contrat déchiré ou jeté (incitation à résilier).
