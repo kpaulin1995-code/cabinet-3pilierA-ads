@@ -230,3 +230,15 @@ Source : Adspirer (données de la veille) + formulaire. Aucune donnée personnel
 **Âge sem. 2 :** 65+ = 305 CHF (44 %, contre 52 % en sem. 1) ; 35-44 et 25-34 = leads les moins chers.
 **Diagnostic :** Meta optimise sur le lead brut le moins cher → il pousse le visuel F1 et des profils hors cible (pas de 3ème pilier A, France sans emploi en Suisse). La qualité s'est effondrée en semaine 2. Les vidéos face caméra (V2, V1) et V4 restent les seules sources de leads « en assurance ».
 **Propositions (en attente d'accord, rien n'a été modifié) :** couper F1, F2, V3 ; garder V1, V2, V4 ; ajouter 2 pubs (V2 et V4) avec un texte filtrant « en assurance + vous versez encore » ; envisager un formulaire plus qualifiant ; obtenir les statuts réels des leads « en assurance ».
+
+## 2026-11-16 — Actions après le point perf n°2 (« ok 1 + 2 » de Kevin)
+
+- **Mis en pause (réversible) :** F1_visuel_banque `120251867076680642`, F2_visuel_vendu `120251867073920642`, V3_motion_A `120251867095030642`.
+- **Créé puis activé :** 2 pubs à texte filtrant, identité @monpilier3, formulaire `1790789782189392`, 9:16 :
+  - V2b_AB-hookA_texte-filtre `120252084898580642` (vidéo `4678974282322427`)
+  - V4b_motion_C_texte-filtre `120252084902360642` (vidéo `2980448115653211`)
+  - Texte : « Cette analyse s'adresse aux personnes qui ont un 3ème pilier A en assurance et qui versent encore chaque année. Frais, versements, valeur de rachat : un expert vérifie gratuitement si votre contrat est toujours le bon choix. » · Titre : « Votre 3ème pilier A est en assurance ? » · Description : « Gratuit et sans engagement » · Bouton : En savoir plus.
+- **Relu :** 5 pubs actives (V1, V2, V4 + V2b, V4b en examen Meta), 3 en pause. Campagne 100 CHF/jour inchangée.
+- **Retour de Kevin sur les appels :** beaucoup de non-réponses ; les premiers leads « en assurance » étaient bons ; 9 leads récents « je n'en ai pas » seront quand même appelés.
+- **Note :** Advantage+ Creative diffère sur les 2 nouvelles pubs (83 options désactivées contre 1). À surveiller, non bloquant.
+- **Résultat attendu :** part de leads « en assurance » > 40 % et coût par lead pré-qualifié < 100 CHF d'ici le 23.11. Prochain point perf : **23.11.2026**.
