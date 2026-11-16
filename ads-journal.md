@@ -273,3 +273,7 @@ Source : Adspirer (données de la veille) + formulaire. Aucune donnée personnel
 
 - **V3 chat iMessage + WhatsApp (31,8 s, 0 $) :** validées telles quelles → à lancer le 23.11 avec la V1 selfie.
 - **V2 pilier jet 1 (bonds, bouche par poses, 2,28 $ dépensés) :** refusé (trop kitsch, bruitages vieillots, bouche pas crédible). Nouvelle direction demandée à la Créa, devis d'abord : pilier muet, voix Algenib en « voix intérieure » + sous-titres modernes, accroche « POV : tu es un 3ème pilier A en assurance… », animation premium (image-to-video ou HyperFrames moderne), sound design discret.
+
+## 2026-11-16 — Pilier « POV » : accord de Kevin
+
+- **Kevin :** « ok option a + H1 » → pilier sans bouche, voix intérieure Algenib + sous-titres, accroche « POV : tu es un 3ème pilier A en assurance… et personne ne t'a regardé depuis 2014. », 3 plans Kling v4 image-to-video (tiroir poussiéreux / montre et soupir / tiroir qui s'ouvre). Plafond 5,80 $ (nominal ~4,49 $). Dépense pilier antérieure : 2,28 $.
