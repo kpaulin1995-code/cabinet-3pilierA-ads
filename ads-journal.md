@@ -251,3 +251,8 @@ Source : Adspirer (données de la veille) + formulaire. Aucune donnée personnel
   3. **« La conversation »** : écran de messagerie générique (Papa / Moi), sans la femme, quasi gratuit.
 - **Brief envoyé** à la conversation Créa : devis USD d'abord, rien de payant sans accord de Kevin.
 - **Écarté :** imitation d'appel entrant / notification (refus Meta) ; image de contrat déchiré ou jeté (incitation à résilier).
+
+## 2026-11-16 — Devis Créa et accords de Kevin
+
+- **Devis Créa (FLORA, 16.11) :** V1 courte face caméra ~1,77 $ (plafond 3,50 $) ; V2 pilier qui parle ~3,20 $ en 2 étapes (test 2a ~1,90 $, production 2b ~2,70 $ ; plafond 5,50 $) ; V3 conversation 0 $. Total nominal ~5 $, plafond 9,10 $.
+- **Accords de Kevin :** « ok V1 et ok V2 test » → V1 (≤ 3,50 $) et V2a test (≤ 1,90 $) autorisés. V2b en attente du choix de voix et de la validation du test. V3 gratuite démarrée.
