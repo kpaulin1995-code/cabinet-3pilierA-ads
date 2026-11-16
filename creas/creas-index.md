@@ -19,6 +19,7 @@ Statuts possibles : à tester / en test / gagnante / coupée.
 | `creas/exports/visuels/3emePilierA_V1-banque_9x16.png` | Visuel fixe, hook « Votre 3ème pilier A est en assurance ? Et la banque ? » (femme assise au bureau, vue sur le Salève, tenue DA) | 9:16 | fixe | PNG 1080×1920 | https://raw.githubusercontent.com/kpaulin1995-code/cabinet-3pilierA-ads/main/creas/exports/visuels/3emePilierA_V1-banque_9x16.png | à tester |
 | `creas/exports/visuels/3emePilierA_V2-vendu_4x5.png` | Visuel fixe, hook « Votre 3ème pilier A, vous l'avez choisi… ou on vous l'a vendu ? » (femme debout devant la bibliothèque, tenue DA) | 4:5 | fixe | PNG 1080×1350 | https://raw.githubusercontent.com/kpaulin1995-code/cabinet-3pilierA-ads/main/creas/exports/visuels/3emePilierA_V2-vendu_4x5.png | à tester |
 | `creas/exports/visuels/3emePilierA_V2-vendu_9x16.png` | Visuel fixe, hook « Votre 3ème pilier A, vous l'avez choisi… ou on vous l'a vendu ? » (femme debout devant la bibliothèque, tenue DA) | 9:16 | fixe | PNG 1080×1920 | https://raw.githubusercontent.com/kpaulin1995-code/cabinet-3pilierA-ads/main/creas/exports/visuels/3emePilierA_V2-vendu_9x16.png | à tester |
+| `creas/exports/3emePilierA_V3-conversation_9x16.mp4` | « La conversation » : messagerie générique Papa / Moi (« Ton 3ème pilier A, il est où ? »), puis cartes prime fixe → versements libres, frais souvent plus bas en banque, « Mais attention » valeur de rachat, bouton « Analyse gratuite ». Sans voix off, musique + bruitages | 9:16 | 18,5 s | 7,4 Mo | https://raw.githubusercontent.com/kpaulin1995-code/cabinet-3pilierA-ads/main/creas/exports/3emePilierA_V3-conversation_9x16.mp4 | à tester (après le 23.11) |
 
 
 Notes :
@@ -26,4 +27,5 @@ Notes :
 - Long « vendu » : fins de plans revérifiées le 02/11 (corrélation d'enveloppe). Seul le plan 2 (« …en banque ? ») débordait d'environ 0,4 s : transition suivante avancée. MP4 Long remplacés le 02/11 (rendu natif, sous 95 Mo).
 - Visuels fixes (v2 du 02/11, corrections de Kevin : V1 vue lisible, V2 tenue DA ; images clés existantes, coût 0 $) : sans argument fiscal, utilisables pour les deux zones. Puces : Moins de frais / Versements libres / Analyse par un expert ; bouton « Analyse gratuite ».
 - ⚠️ Conformité frontaliers : les 4 vidéos (A, C, Long, AB-hookA) disent « même avantage fiscal » en voix off et en sous-titres. À ne pas diffuser aux frontaliers en l'état (CLAUDE.md §3.8) : il faudrait une variante sans cette phrase.
+- V3 « La conversation » (16.11) : coût 0 $. Interface générique (aucune marque, ni barre système, ni notification) ; la 1re bulle est affichée dès l'image 0 (vignette). Aucun argument fiscal. Source : `sources/build_v3.py`.
 - Versions B et D (autres hooks) : écrites, pas produites.
