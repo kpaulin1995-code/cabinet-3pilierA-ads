@@ -85,8 +85,8 @@ index = f"""<!doctype html>
       html, body {{ width: {W}px; height: {H}px; overflow: hidden; background: #000; }}
       #root {{ position: relative; width: 100%; height: 100%; font-family: 'Inter Tight', sans-serif; background: #000; }}
       .vid {{ position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }}
-      #grade {{ position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0) 30%, rgba(0,0,0,0) 55%, rgba(0,0,0,0.55)); pointer-events: none; }}
-      #hook {{ position: absolute; left: 70px; right: 70px; top: 300px; color: #fff; font-weight: 900; font-size: 74px; line-height: 1.04; letter-spacing: -0.035em;
+      #grade {{ position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0) 28%, rgba(0,0,0,0.15) 42%, rgba(0,0,0,0.6) 75%, rgba(0,0,0,0.7)); pointer-events: none; }}
+      #hook {{ position: absolute; left: 70px; right: 70px; top: 860px; color: #fff; font-weight: 900; font-size: 74px; line-height: 1.04; letter-spacing: -0.035em;
                text-shadow: 0 4px 24px rgba(0,0,0,0.6); }}
       #hook .pov {{ display: inline-block; background: #fff; color: #000; padding: 2px 18px 6px; border-radius: 14px; margin-bottom: 14px; font-size: 56px; text-shadow: none; }}
       #hook .red {{ color: {RED}; }}
@@ -96,10 +96,10 @@ index = f"""<!doctype html>
       .w.red {{ color: #FF5A3C; }}
       #bg2 {{ position: absolute; inset: 0; background: radial-gradient(90% 60% at 50% 40%, #2A2016 0%, #120F0C 55%, #050505 100%); opacity: 0; }}
       .panel {{ position: absolute; left: 70px; right: 70px; opacity: 0; }}
-      #cmp {{ top: 330px; display: flex; gap: 24px; }}
-      .col {{ flex: 1; border-radius: 36px; padding: 34px 30px 40px; }}
+      #cmp {{ top: 360px; display: flex; gap: 22px; left: 50px; right: 50px; }}
+      .col {{ flex: 1; border-radius: 36px; padding: 40px 32px 50px; min-height: 640px; }}
       .col h3 {{ font-weight: 800; font-size: 30px; letter-spacing: 0.16em; text-transform: uppercase; margin-bottom: 22px; }}
-      .col .it {{ font-weight: 800; font-size: 44px; line-height: 1.1; letter-spacing: -0.02em; margin-top: 22px; display: flex; gap: 14px; align-items: flex-start; }}
+      .col .it {{ font-weight: 800; font-size: 52px; line-height: 1.1; letter-spacing: -0.02em; margin-top: 22px; display: flex; gap: 14px; align-items: flex-start; }}
       .col .it em {{ font-family: 'Instrument Serif'; font-style: italic; font-weight: 400; }}
       #cA {{ background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.75); border: 2px solid rgba(255,255,255,0.12); }}
       #cB {{ background: {CREAM}; color: {INK}; box-shadow: 0 0 0 4px {RED}, 0 30px 70px rgba(0,0,0,0.5); }}
