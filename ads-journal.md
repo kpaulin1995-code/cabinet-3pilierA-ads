@@ -210,3 +210,23 @@ Source : Adspirer (données Meta de la veille) + formulaire « Lead gen 3P banqu
 - **Kevin :** on laisse tourner une 2e semaine sans modification. Prochain point perf : **16.11.2026**.
 - **Ensuite :** trier les 65+ par le texte / le titre. Interdit chez Meta (politique « caractéristiques personnelles ») : « Vous avez moins de 60 ans ? ». À préparer : formulations « actifs / vous versez encore / avant la retraite » (2–3 textes et titres) pour remplacer F2 ou compléter.
 - **Option à évaluer le 16.11 :** 2e ensemble Instagram seul si les 65+ restent > 40 % de la dépense.
+
+## 2026-11-16 — Point perf n°2 (09.11 → 15.11) + bilan 2 semaines
+
+Source : Adspirer (données de la veille) + formulaire. Aucune donnée personnelle reportée.
+
+**Semaine 2 :** 693 CHF · 15 312 impressions · CTR 1,70 % · CPC 2,67 CHF · **13 leads** · **0 lead « en assurance »** (8 « je n'en ai pas », 5 « en banque »). Le 16.11 au matin : 1 lead « en assurance » (V4).
+**Cumul 02.11 → 15.11 :** 1 368 CHF · 28 leads · 7 « en assurance » (25 %) → **~195 CHF par lead pré-qualifié** (cible 100).
+
+| Pub | Dépense cumulée | Leads | « En assurance » | CHF/pré-qualifié | Sem. 2 |
+|---|---|---|---|---|---|
+| V2_AB-hookA_banque | 166 | 4 | 2 | **83** | Meta l'a presque arrêtée (57 CHF), CTR 3,2 % |
+| V4_motion_C | 265 | 7 | 2 (+1 le 16.11) | 132 (88 avec le 16.11) | 5 leads, 0 en assurance |
+| V1_Long_vendu | 159 | 4 | 1 | 159 | |
+| F1_visuel_banque | 528 | 11 | 1 | 528 | 1re dépense, 0 en assurance |
+| F2_visuel_vendu | 217 | 2 | 0 | — | **seuil 200 CHF dépassé** |
+| V3_motion_A | 34 | 0 | 0 | — | quasi pas diffusée |
+
+**Âge sem. 2 :** 65+ = 305 CHF (44 %, contre 52 % en sem. 1) ; 35-44 et 25-34 = leads les moins chers.
+**Diagnostic :** Meta optimise sur le lead brut le moins cher → il pousse le visuel F1 et des profils hors cible (pas de 3ème pilier A, France sans emploi en Suisse). La qualité s'est effondrée en semaine 2. Les vidéos face caméra (V2, V1) et V4 restent les seules sources de leads « en assurance ».
+**Propositions (en attente d'accord, rien n'a été modifié) :** couper F1, F2, V3 ; garder V1, V2, V4 ; ajouter 2 pubs (V2 et V4) avec un texte filtrant « en assurance + vous versez encore » ; envisager un formulaire plus qualifiant ; obtenir les statuts réels des leads « en assurance ».
