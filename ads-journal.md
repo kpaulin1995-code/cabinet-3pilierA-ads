@@ -262,3 +262,9 @@ Source : Adspirer (données de la veille) + formulaire. Aucune donnée personnel
 - **V3 « La conversation » v1 :** rejetée (incompréhensible, trop rapide, style trop proche des anciennes pubs). Nouvelle direction : vidéo 100 % conversation de messagerie, 2 variantes gratuites (style iMessage / style WhatsApp), sans logo, nom d'appli ni barre système ; script avec « je résilie demain / Non ! Ne fais rien tout seul » (dissuade la résiliation).
 - **V2a test pilier :** livré, 1,744 $ (plafond 1,90 $), voix Algenib choisie par Kevin. Lip-sync MiniMax jugé mauvais par Kevin → **V2b payante abandonnée** ; version gratuite HyperFrames demandée : le pilier se déplace par bonds avec bruitages, bouche simple ou fermée, explications en bulles. Nouvelles images seulement après devis et accord.
 - **V1 courte face caméra :** Kevin a demandé directement à la Créa un format « selfie » et relevé le plafond à 4,50 $ (2,14 $ dépensés au 16.11).
+
+## 2026-11-16 — V1 courte selfie validée
+
+- **Livrée par la Créa :** `creas/exports/3emePilierA_V1-courte-selfie_9x16.mp4` (19,6 s, 9:16), coût 3,87 $ (plafond 4,50 $). Lip-sync vérifié (corrélation 0,93 / 0,98).
+- **Kevin :** validée, à lancer au point perf du 23.11.
+- **Dépense créa du 16.11 :** 5,61 $ (V1 3,87 $ + test pilier 1,74 $ + conversation 0 $).
