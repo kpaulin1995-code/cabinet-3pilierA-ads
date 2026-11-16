@@ -256,3 +256,9 @@ Source : Adspirer (données de la veille) + formulaire. Aucune donnée personnel
 
 - **Devis Créa (FLORA, 16.11) :** V1 courte face caméra ~1,77 $ (plafond 3,50 $) ; V2 pilier qui parle ~3,20 $ en 2 étapes (test 2a ~1,90 $, production 2b ~2,70 $ ; plafond 5,50 $) ; V3 conversation 0 $. Total nominal ~5 $, plafond 9,10 $.
 - **Accords de Kevin :** « ok V1 et ok V2 test » → V1 (≤ 3,50 $) et V2a test (≤ 1,90 $) autorisés. V2b en attente du choix de voix et de la validation du test. V3 gratuite démarrée.
+
+## 2026-11-16 — Créas en cours (retours de Kevin)
+
+- **V3 « La conversation » v1 :** rejetée (incompréhensible, trop rapide, style trop proche des anciennes pubs). Nouvelle direction : vidéo 100 % conversation de messagerie, 2 variantes gratuites (style iMessage / style WhatsApp), sans logo, nom d'appli ni barre système ; script avec « je résilie demain / Non ! Ne fais rien tout seul » (dissuade la résiliation).
+- **V2a test pilier :** livré, 1,744 $ (plafond 1,90 $), voix Algenib choisie par Kevin. Lip-sync MiniMax jugé mauvais par Kevin → **V2b payante abandonnée** ; version gratuite HyperFrames demandée : le pilier se déplace par bonds avec bruitages, bouche simple ou fermée, explications en bulles. Nouvelles images seulement après devis et accord.
+- **V1 courte face caméra :** Kevin a demandé directement à la Créa un format « selfie » et relevé le plafond à 4,50 $ (2,14 $ dépensés au 16.11).
