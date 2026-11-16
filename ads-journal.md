@@ -268,3 +268,8 @@ Source : Adspirer (données de la veille) + formulaire. Aucune donnée personnel
 - **Livrée par la Créa :** `creas/exports/3emePilierA_V1-courte-selfie_9x16.mp4` (19,6 s, 9:16), coût 3,87 $ (plafond 4,50 $). Lip-sync vérifié (corrélation 0,93 / 0,98).
 - **Kevin :** validée, à lancer au point perf du 23.11.
 - **Dépense créa du 16.11 :** 5,61 $ (V1 3,87 $ + test pilier 1,74 $ + conversation 0 $).
+
+## 2026-11-16 — Retours de Kevin sur les livraisons du soir
+
+- **V3 chat iMessage + WhatsApp (31,8 s, 0 $) :** validées telles quelles → à lancer le 23.11 avec la V1 selfie.
+- **V2 pilier jet 1 (bonds, bouche par poses, 2,28 $ dépensés) :** refusé (trop kitsch, bruitages vieillots, bouche pas crédible). Nouvelle direction demandée à la Créa, devis d'abord : pilier muet, voix Algenib en « voix intérieure » + sous-titres modernes, accroche « POV : tu es un 3ème pilier A en assurance… », animation premium (image-to-video ou HyperFrames moderne), sound design discret.
