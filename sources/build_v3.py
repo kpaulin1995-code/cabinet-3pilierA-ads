@@ -169,6 +169,10 @@ index = f"""<!doctype html>
 </html>
 """
 os.makedirs(os.path.join(OUT, "assets"), exist_ok=True)
+shutil.copytree(os.path.join(ROOT, "src", "assets", "fonts"), os.path.join(OUT, "assets", "fonts"), dirs_exist_ok=True)
+shutil.copy(os.path.join(ROOT, "src", "assets", "grain.png"), os.path.join(OUT, "assets"))
+for f in ["hyperframes.json", "package.json"]:
+    shutil.copy(os.path.join(ROOT, "src", f), OUT)
 open(os.path.join(OUT, "index.html"), "w").write(index)
 
 # ---------------------------------------------------------------- audio : musique + bruitages
